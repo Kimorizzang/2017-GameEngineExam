@@ -1,0 +1,1210 @@
+﻿Log file open, 05/18/17 00:14:12
+LogInit:Display: Running engine for game: exam2014184024
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1429006452) SRandInit(-1429006452).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088157
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.17-15.14.13:662][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.17-15.14.13:662][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.17-15.14.13:672][  0]LogInit: Computer: DESKTOP-CJPULGD
+[2017.05.17-15.14.13:672][  0]LogInit: User: SiHyeon
+[2017.05.17-15.14.13:672][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.17-15.14.13:672][  0]LogInit: High frequency timer resolution =3.117187 MHz
+[2017.05.17-15.14.13:672][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.17-15.14.13:672][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.17-15.14.13:672][  0]LogMemory: Process Physical Memory: 264.21 MB used, 264.21 MB peak
+[2017.05.17-15.14.13:672][  0]LogMemory: Process Virtual Memory: 262.52 MB used, 262.52 MB peak
+[2017.05.17-15.14.13:672][  0]LogMemory: Physical Memory: 3446.89 MB used,  4696.39 MB free, 8143.29 MB total
+[2017.05.17-15.14.13:672][  0]LogMemory: Virtual Memory: 643.99 MB used,  4696.39 MB free, 134217728.00 MB total
+[2017.05.17-15.14.13:854][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
+이 노드를 무시합니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
+기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
+디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
+루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
+반복하면 1회전 후 0.f 부터 시작됩니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
+반복하면, 1회전 후 0.f 부터 시작됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
+루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
+[2017.05.17-15.14.13:905][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+[2017.05.17-15.14.14:454][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.17-15.14.14:488][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.05.17-15.14.14:488][  0]LogD3D11RHI:       2015/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.17-15.14.14:490][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.17-15.14.14:490][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.17-15.14.14:490][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.17-15.14.14:494][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.17-15.14.14:494][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.17-15.14.14:494][  0]LogWindows: EnumDisplayDevices:
+[2017.05.17-15.14.14:494][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2017.05.17-15.14.14:495][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.05.17-15.14.14:495][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.05.17-15.14.14:496][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.05.17-15.14.14:496][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.17-15.14.14:496][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.05.17-15.14.14:496][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.17-15.14.14:496][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.17-15.14.14:496][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.17-15.14.14:511][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.17-15.14.14:521][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.17-15.14.14:626][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Intermediate/Shaders/WorkingDirectory/12996/).
+[2017.05.17-15.14.14:626][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SiHyeon/AppData/Local/Temp/UnrealShaderWorkingDir/C12C758F4C28E2EC005D86BA93D2A529/'.
+[2017.05.17-15.14.14:626][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.17-15.14.15:948][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.17-15.14.16:062][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.17-15.14.16:176][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.17-15.14.16:287][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.17-15.14.16:399][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.17-15.14.16:510][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.17-15.14.16:622][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.17-15.14.16:735][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.17-15.14.16:837][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.17-15.14.16:948][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.17-15.14.17:060][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.17-15.14.17:173][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.17-15.14.17:284][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.17-15.14.17:396][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.17-15.14.17:507][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.17-15.14.17:730][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.17-15.14.17:731][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.17-15.14.17:826][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.17-15.14.18:011][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.17-15.14.18:077][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.17-15.14.18:185][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.17-15.14.18:300][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.17-15.14.18:416][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.17-15.14.18:527][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.17-15.14.18:527][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.17-15.14.19:638][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.17-15.14.19:688][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SiHyeon/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.17-15.14.19:688][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SiHyeon/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.17-15.14.19:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.17-15.14.19:688][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.17-15.14.19:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.17-15.14.19:688][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.17-15.14.19:706][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.17-15.14.19:719][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SiHyeon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.17-15.14.19:728][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.17-15.14.19:729][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.17-15.14.19:729][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.17-15.14.20:082][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.17-15.14.20:084][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.17-15.14.20:505][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.17-15.14.20:626][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.17-15.14.20:776][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.17-15.14.20:776][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.17-15.14.20:776][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.17-15.14.21:613][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: exam2014184024, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3157951537
+[2017.05.17-15.14.21:693][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2017.05.17-15.14.21:809][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028958 seconds
+[2017.05.17-15.14.21:814][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.17-15.14.21:814][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.17-15.14.21:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.17-15.14.22:015][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.17-15.14.25:967][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.17-15.14.26:085][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.17-15.14.27:152][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.17-15.14.28:098][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.17-15.14.28:159][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.17-15.14.28:281][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.17-15.14.28:402][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.17-15.14.32:012][  0]LogEngine: Initializing Engine...
+[2017.05.17-15.14.32:013][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.17-15.14.32:714][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.17-15.14.32:724][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-15.14.32:823][  0]LogInit: FAudioDevice initialized.
+[2017.05.17-15.14.32:850][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SiHyeon/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.17-15.14.32:854][  0]LogInit: Texture streaming: Enabled
+[2017.05.17-15.14.33:196][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.17-15.14.33:448][  0]LogInit: Transaction tracking system initialized
+[2017.05.17-15.14.34:661][  0]BlueprintLog: New page: 에디터 로드
+[2017.05.17-15.14.37:677][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.05.17-15.14.39:889][  0]LogConsoleResponse:Display: 
+[2017.05.17-15.14.40:240][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.17-15.14.40:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/' took 0.06s
+[2017.05.17-15.14.40:240][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.17-15.14.43:810][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.17-15.14.43:811][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.17-15.14.43:811][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.17-15.14.43:944][  0]MapCheck: New page: 맵 체크
+[2017.05.17-15.14.43:944][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.17-15.14.44:217][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.17-15.14.45:823][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.17-15.14.45:827][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.17-15.14.45:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.17-15.14.45:941][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 107.724ms.
+[2017.05.17-15.14.45:941][  0]LogFileHelpers: Loading map 'Template_Default' took 2.130
+[2017.05.17-15.14.46:067][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.05.17-15.14.46:235][  0]LogCollectionManager: Loaded 0 collections in 0.001763 seconds
+[2017.05.17-15.14.46:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Collections/' took 0.01s
+[2017.05.17-15.14.46:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Developers/SiHyeon/Collections/' took 0.01s
+[2017.05.17-15.14.46:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Collections/' took 0.01s
+[2017.05.17-15.14.46:384][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.17-15.14.46:394][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2245 classes and 453 folders.
+[2017.05.17-15.14.46:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.17-15.14.46:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.17-15.14.46:574][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.17-15.14.46:657][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.17-15.14.46:767][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.17-15.14.46:858][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.17-15.14.46:865][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.17-15.14.46:992][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.17-15.14.46:992][  0]LogLoad: (Engine Initialization) Total time: 35.96 seconds
+[2017.05.17-15.14.46:992][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.05.17-15.14.46:992][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.17-15.14.46:992][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.17-15.14.47:004][  0]LogOcInput: OculusInput pre-init called
+[2017.05.17-15.14.47:022][  0]LogAssetRegistry: Asset discovery search completed in 25.3501 seconds
+[2017.05.17-15.14.47:022][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.17-15.14.47:022][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.05.17-15.14.47:027][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.17-15.14.47:035][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.17-15.14.47:040][  0]LogSlate: Took 0.002943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.05.17-15.14.47:042][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.17-15.14.47:048][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.17-15.14.47:203][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.17-15.15.52:118][365]LogSlate: Took 0.000412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.17-15.15.55:107][479]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.17-15.16.02:212][311]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.17-15.16.02:229][311]LogLinker:Warning: '/Game/FPWeapon/Materials/M_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:229][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MI_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/M_FPGun' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:229][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MI_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/M_FPGun
+[2017.05.17-15.16.02:229][311]LogLinker:Warning: '/Game/FPWeapon/Materials/M_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:229][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MI_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/M_FPGun' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:229][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_AO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:229][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MI_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_AO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:229][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MI_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/T_FPGun_AO
+[2017.05.17-15.16.02:230][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:230][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MI_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:230][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MI_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/T_FPGun_N
+[2017.05.17-15.16.02:230][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_AO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:230][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MI_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_AO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:230][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:230][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MI_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:231][311]LogLinker:Warning: '/Game/FPWeapon/Materials/M_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:231][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/M_FPGun.M_FPGun 레퍼런싱한 것: MI_FPGun
+[2017.05.17-15.16.02:231][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/M_FPGun' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:231][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_AO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:231][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/T_FPGun_AO.T_FPGun_AO 레퍼런싱한 것: MI_FPGun
+[2017.05.17-15.16.02:231][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/T_FPGun_AO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:231][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:231][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/T_FPGun_N.T_FPGun_N 레퍼런싱한 것: MI_FPGun
+[2017.05.17-15.16.02:231][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/T_FPGun_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:239][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:239][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:239][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2017.05.17-15.16.02:239][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:239][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2017.05.17-15.16.02:240][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO
+[2017.05.17-15.16.02:240][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2017.05.17-15.16.02:240][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:240][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast
+[2017.05.17-15.16.02:241][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:241][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:241][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment
+[2017.05.17-15.16.02:241][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:241][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:242][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_AO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_AO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/T_FPGun_AO
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_M' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_M' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/T_FPGun_M
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:243][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/M_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/T_FPGun_N
+[2017.05.17-15.16.02:244][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_AO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:244][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_AO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:244][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_M' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:244][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_M' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:244][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:244][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/M_FPGun.uasset 로드중 '/Game/FPWeapon/Textures/T_FPGun_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:246][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:246][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 레퍼런싱한 것: M_FPGun
+[2017.05.17-15.16.02:246][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:246][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:246][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment.MF_RoughnessAdjustment 레퍼런싱한 것: M_FPGun
+[2017.05.17-15.16.02:246][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: M_FPGun
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 레퍼런싱한 것: M_FPGun
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:247][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:248][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:248][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:248][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige 레퍼런싱한 것: M_FPGun
+[2017.05.17-15.16.02:248][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:248][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:248][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:248][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:249][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:249][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:249][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO 레퍼런싱한 것: M_FPGun
+[2017.05.17-15.16.02:249][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:249][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:249][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:249][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:250][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:250][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:250][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_13
+[2017.05.17-15.16.02:250][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:251][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:251][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_3
+[2017.05.17-15.16.02:251][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:251][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:251][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_8
+[2017.05.17-15.16.02:251][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:252][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:252][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_9
+[2017.05.17-15.16.02:252][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:252][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_AO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:252][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/T_FPGun_AO.T_FPGun_AO 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_1
+[2017.05.17-15.16.02:252][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/T_FPGun_AO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:253][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:253][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/T_FPGun_N.T_FPGun_N 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_2
+[2017.05.17-15.16.02:253][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/T_FPGun_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:253][311]LogLinker:Warning: '/Game/FPWeapon/Textures/T_FPGun_M' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:253][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/T_FPGun_M.T_FPGun_M 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_3
+[2017.05.17-15.16.02:253][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/T_FPGun_M' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:255][311]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: Failed to compile Material /Game/ShooterProject/FPWeapon/Materials/M_FPGun.M_FPGun for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Missing Material Function
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2017.05.17-15.16.02:257][311]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.05.17-15.16.02:258][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:259][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:259][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast
+[2017.05.17-15.16.02:259][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:259][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:259][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment
+[2017.05.17-15.16.02:259][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:259][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:259][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:260][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:260][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:260][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:261][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:261][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:261][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:261][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile
+[2017.05.17-15.16.02:261][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:261][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:261][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:262][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:262][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:262][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:262][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:262][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:264][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:264][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment.MF_RoughnessAdjustment 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_15
+[2017.05.17-15.16.02:264][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:264][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:264][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_16
+[2017.05.17-15.16.02:264][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:265][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:265][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_18
+[2017.05.17-15.16.02:265][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:265][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:265][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile 레퍼런싱한 것: MaterialExpressionTextureSample_1
+[2017.05.17-15.16.02:265][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:265][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:266][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.T_ML_FineRubber 레퍼런싱한 것: MaterialExpressionTextureSample_13
+[2017.05.17-15.16.02:266][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:266][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:267][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D 레퍼런싱한 것: MaterialExpressionTextureSample_3
+[2017.05.17-15.16.02:267][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:267][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:267][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2017.05.17-15.16.02:267][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:268][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:268][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:269][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast
+[2017.05.17-15.16.02:269][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:269][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:269][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment
+[2017.05.17-15.16.02:269][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:269][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:269][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:270][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:270][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:270][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:270][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile
+[2017.05.17-15.16.02:270][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:270][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:272][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:272][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment.MF_RoughnessAdjustment 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_12
+[2017.05.17-15.16.02:272][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:272][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:272][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_13
+[2017.05.17-15.16.02:272][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:272][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:273][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_14
+[2017.05.17-15.16.02:273][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:273][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:273][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile 레퍼런싱한 것: MaterialExpressionTextureSample_3
+[2017.05.17-15.16.02:273][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:274][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:274][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:274][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast
+[2017.05.17-15.16.02:274][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:274][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:274][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment
+[2017.05.17-15.16.02:275][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:275][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:275][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:275][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:276][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:276][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/FPWeapon/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:276][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/UE4_LOGO_CARD
+[2017.05.17-15.16.02:276][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:276][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/FPWeapon/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:277][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:278][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:278][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:278][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:278][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:279][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:279][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:279][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2017.05.17-15.16.02:279][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:281][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:281][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:281][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast
+[2017.05.17-15.16.02:281][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:281][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:282][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment
+[2017.05.17-15.16.02:282][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:282][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:282][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01
+[2017.05.17-15.16.02:282][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:282][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:282][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N
+[2017.05.17-15.16.02:283][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:283][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:283][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:283][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:283][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:283][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:283][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile
+[2017.05.17-15.16.02:284][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:284][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:284][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:284][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:284][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:284][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:286][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:286][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_29
+[2017.05.17-15.16.02:286][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:286][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:287][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_BaseColorTintAndContrast.MF_BaseColorTintAndContrast 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_30
+[2017.05.17-15.16.02:287][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_BaseColorTintAndContrast' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:287][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:287][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MF_RoughnessAdjustment.MF_RoughnessAdjustment 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_31
+[2017.05.17-15.16.02:287][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MF_RoughnessAdjustment' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:287][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:288][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01 레퍼런싱한 것: MaterialExpressionTextureSample_11
+[2017.05.17-15.16.02:288][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:288][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:288][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N 레퍼런싱한 것: MaterialExpressionTextureSample_12
+[2017.05.17-15.16.02:288][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:288][311]LogLinker:Warning: '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:289][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile 레퍼런싱한 것: MaterialExpressionTextureSample_2
+[2017.05.17-15.16.02:289][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:296][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MI_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:296][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Mesh/SK_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MI_FPGun' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:296][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Mesh/SK_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Materials/MI_FPGun
+[2017.05.17-15.16.02:296][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MI_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:296][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Mesh/SK_FPGun.uasset 로드중 '/Game/FPWeapon/Materials/MI_FPGun' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:297][311]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:297][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Mesh/SK_FPGun.uasset 로드중 '/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:297][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Mesh/SK_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset
+[2017.05.17-15.16.02:297][311]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:297][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Mesh/SK_FPGun.uasset 로드중 '/Game/FPWeapon/Mesh/SK_FPGun_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:297][311]LoadErrors:Error: 오류 /Game/ShooterProject/FPWeapon/Mesh/SK_FPGun : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FPWeapon/Mesh/SK_FPGun_Skeleton
+[2017.05.17-15.16.02:297][311]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:297][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Mesh/SK_FPGun.uasset 로드중 '/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:298][311]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:298][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/FPWeapon/Mesh/SK_FPGun.uasset 로드중 '/Game/FPWeapon/Mesh/SK_FPGun_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:298][311]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:298][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Mesh/SK_FPGun_Skeleton.SK_FPGun_Skeleton 레퍼런싱한 것: SK_FPGun
+[2017.05.17-15.16.02:298][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Mesh/SK_FPGun_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:299][311]LogLinker:Warning: '/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:299][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.SK_FPGun_PhysicsAsset 레퍼런싱한 것: SK_FPGun
+[2017.05.17-15.16.02:299][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:299][311]LogLinker:Warning: '/Game/FPWeapon/Materials/MI_FPGun' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:299][311]LoadErrors: 정보 로드에 실패했습니다. /Game/FPWeapon/Materials/MI_FPGun.MI_FPGun 레퍼런싱한 것: SK_FPGun
+[2017.05.17-15.16.02:299][311]LogLinker:Warning: NULL 로드중 '/Game/FPWeapon/Materials/MI_FPGun' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:322][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:323][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Death_1.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:323][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Death_1 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:323][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:323][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Death_1.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:324][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:324][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Death_1
+[2017.05.17-15.16.02:324][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:325][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:325][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Death_2.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:325][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Death_2 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:325][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:325][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Death_2.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:326][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:326][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Death_2
+[2017.05.17-15.16.02:326][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:327][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:327][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Death_3.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:327][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Death_3 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:327][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:328][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Death_3.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:328][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:328][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Death_3
+[2017.05.17-15.16.02:328][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:330][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:330][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Enemy_Idle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:330][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Enemy_Idle : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:330][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:330][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Enemy_Idle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:331][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:331][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Enemy_Idle
+[2017.05.17-15.16.02:331][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:332][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:332][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Enemy_Walk.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:332][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Enemy_Walk : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:332][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:332][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Enemy_Walk.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:333][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:333][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Enemy_Walk
+[2017.05.17-15.16.02:333][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:334][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:335][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Idle_Rifle_Hip.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:335][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Idle_Rifle_Hip : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:335][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:335][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Idle_Rifle_Hip.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:336][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:336][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Idle_Rifle_Hip
+[2017.05.17-15.16.02:336][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:337][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:337][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Bwd_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:337][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Jog_Bwd_Rifle : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:337][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:338][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Bwd_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:338][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:338][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Jog_Bwd_Rifle
+[2017.05.17-15.16.02:338][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:339][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:339][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Fwd_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:340][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Jog_Fwd_Rifle : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:340][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:340][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Fwd_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:340][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:340][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Jog_Fwd_Rifle
+[2017.05.17-15.16.02:341][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:342][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:342][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Lt_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:342][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Jog_Lt_Rifle : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:342][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:342][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Lt_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:343][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:343][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Jog_Lt_Rifle
+[2017.05.17-15.16.02:343][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:344][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:345][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Rt_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:345][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/Jog_Rt_Rifle : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:345][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:345][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/Jog_Rt_Rifle.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:346][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:346][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: Jog_Rt_Rifle
+[2017.05.17-15.16.02:346][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:348][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:348][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:348][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4
+[2017.05.17-15.16.02:348][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:348][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:349][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige
+[2017.05.17-15.16.02:349][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:349][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:349][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO
+[2017.05.17-15.16.02:349][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:350][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:350][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4
+[2017.05.17-15.16.02:350][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:350][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:351][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:351][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:351][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:351][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:351][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:351][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:352][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:352][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:352][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals
+[2017.05.17-15.16.02:352][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:352][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:352][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA
+[2017.05.17-15.16.02:352][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:352][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:353][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile
+[2017.05.17-15.16.02:353][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:353][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:353][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:353][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:353][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:354][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:354][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:355][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 레퍼런싱한 것: M_UE4Man_Body
+[2017.05.17-15.16.02:355][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:355][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:355][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 레퍼런싱한 것: M_UE4Man_Body
+[2017.05.17-15.16.02:355][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:355][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:356][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige 레퍼런싱한 것: M_UE4Man_Body
+[2017.05.17-15.16.02:356][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:356][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:356][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO 레퍼런싱한 것: M_UE4Man_Body
+[2017.05.17-15.16.02:356][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:356][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:357][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.ML_Plastic_Shiny_Beige 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_13
+[2017.05.17-15.16.02:357][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:357][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:357][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.ML_Plastic_Shiny_Beige_LOGO 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_3
+[2017.05.17-15.16.02:357][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:358][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:358][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.ML_GlossyBlack_Latex_UE4 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_8
+[2017.05.17-15.16.02:358][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:358][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:358][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.ML_SoftMetal_UE4 레퍼런싱한 것: MaterialExpressionMaterialFunctionCall_9
+[2017.05.17-15.16.02:358][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:359][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:359][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.UE4_Mannequin_MAT_MASKA 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2017.05.17-15.16.02:359][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:360][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:360][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.UE4_Mannequin__normals 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_0
+[2017.05.17-15.16.02:360][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:360][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:360][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.UE4_Mannequin_occlusion_Mobile 레퍼런싱한 것: MaterialExpressionTextureSampleParameter2D_1
+[2017.05.17-15.16.02:360][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:363][311]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: Failed to compile Material /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Missing Material Function
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Function MatLayerBlend_AO: (Node MakeMaterialAttributes) Error on property Specular
+[2017.05.17-15.16.02:364][311]LogMaterial:Warning: 	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+[2017.05.17-15.16.02:365][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:365][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:365][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body
+[2017.05.17-15.16.02:365][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:365][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:366][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:366][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:366][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N
+[2017.05.17-15.16.02:366][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:366][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:367][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:367][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body 레퍼런싱한 것: M_UE4Man_ChestLogo
+[2017.05.17-15.16.02:367][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:367][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:367][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.UE4Man_Logo_N 레퍼런싱한 것: M_UE4Man_ChestLogo
+[2017.05.17-15.16.02:367][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:369][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:369][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:369][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D
+[2017.05.17-15.16.02:369][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:369][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:369][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N
+[2017.05.17-15.16.02:370][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:370][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:370][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:370][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:371][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:371][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D 레퍼런싱한 것: MaterialExpressionTextureSample_3
+[2017.05.17-15.16.02:371][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:372][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:372][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2017.05.17-15.16.02:372][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:374][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:374][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:374][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD
+[2017.05.17-15.16.02:375][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:375][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:375][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:376][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD.UE4_LOGO_CARD 레퍼런싱한 것: MaterialExpressionTextureSample_4
+[2017.05.17-15.16.02:376][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:377][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:377][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:377][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01
+[2017.05.17-15.16.02:377][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:378][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:378][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N
+[2017.05.17-15.16.02:378][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:378][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:378][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:378][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:379][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:379][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.T_ML_Aluminum01 레퍼런싱한 것: MaterialExpressionTextureSample_11
+[2017.05.17-15.16.02:380][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:380][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:380][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.T_ML_Aluminum01_N 레퍼런싱한 것: MaterialExpressionTextureSample_12
+[2017.05.17-15.16.02:380][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:387][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:387][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:388][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body
+[2017.05.17-15.16.02:388][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:388][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:388][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo
+[2017.05.17-15.16.02:388][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:388][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:388][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:389][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:389][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:389][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:389][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset
+[2017.05.17-15.16.02:389][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:389][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:390][311]LoadErrors:Error: 오류 /Game/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton
+[2017.05.17-15.16.02:390][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:390][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:390][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:390][311]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterProject/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:391][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:391][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton 레퍼런싱한 것: SK_Mannequin
+[2017.05.17-15.16.02:391][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:392][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:392][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset 레퍼런싱한 것: SK_Mannequin
+[2017.05.17-15.16.02:392][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:392][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:392][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.M_UE4Man_Body 레퍼런싱한 것: SK_Mannequin
+[2017.05.17-15.16.02:392][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:393][311]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:393][311]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo 레퍼런싱한 것: SK_Mannequin
+[2017.05.17-15.16.02:393][311]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.16.02:757][311]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.17-15.16.02:758][311]LogTemp:Display: Added material ShaderMap 0x000002B3F360D600 with Material 0x000002B38B047B80 to ShaderMapsBeingCompiled
+[2017.05.17-15.16.02:765][311]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x000002B3F360D600
+[2017.05.17-15.16.02:836][311]LogSavePackage: Save=15.05ms
+[2017.05.17-15.16.02:836][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/MF_BaseColorTintAndContrast27BD81594A58F54E9D19C583CABF5FE9.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MF_BaseColorTintAndContrast.uasset'
+[2017.05.17-15.16.02:840][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MF_BaseColorTintAndContrast.uasset
+[2017.05.17-15.16.02:848][311]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.05.17-15.16.02:848][311]LogTemp:Display: Added material ShaderMap 0x000002B38C828F00 with Material 0x000002B38B045D80 to ShaderMapsBeingCompiled
+[2017.05.17-15.16.02:852][311]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x000002B38C828F00
+[2017.05.17-15.16.02:892][311]LogSavePackage: Save=15.07ms
+[2017.05.17-15.16.02:892][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/MF_RoughnessAdjustment877F0996428A941CC5B3B69762465A08.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MF_RoughnessAdjustment.uasset'
+[2017.05.17-15.16.02:896][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MF_RoughnessAdjustment.uasset
+[2017.05.17-15.16.02:946][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Materials/MI_FPGun" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MI_FPGun.uasset" SILENT=true
+[2017.05.17-15.16.02:961][311]LogSavePackage: Save=12.68ms
+[2017.05.17-15.16.02:961][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/MI_FPGun584B05664BDBEC4927FF2D863164C7CC.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MI_FPGun.uasset'
+[2017.05.17-15.16.02:965][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MI_FPGun.uasset
+[2017.05.17-15.16.02:995][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Materials/M_FPGun" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/M_FPGun.uasset" SILENT=true
+[2017.05.17-15.16.03:017][311]LogSavePackage: Save=20.60ms
+[2017.05.17-15.16.03:017][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/M_FPGun1C1FD69B414266DB15655E9BFAD32F1A.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/M_FPGun.uasset'
+[2017.05.17-15.16.03:021][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/M_FPGun.uasset
+[2017.05.17-15.16.03:030][311]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: 	Missing Material Function
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.05.17-15.16.03:030][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property AmbientOcclusion
+[2017.05.17-15.16.03:081][311]LogSavePackage: Save=23.13ms
+[2017.05.17-15.16.03:081][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_GlossyBlack_Latex_UE4C092137C40654DB7EB3D3ABC08268EDE.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2017.05.17-15.16.03:085][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.05.17-15.16.03:093][311]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.05.17-15.16.03:094][311]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_3 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.03:094][311]LogMaterial:Warning: 	Missing Material Function
+[2017.05.17-15.16.03:094][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.03:094][311]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.17-15.16.03:094][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property AmbientOcclusion
+[2017.05.17-15.16.03:138][311]LogSavePackage: Save=18.15ms
+[2017.05.17-15.16.03:138][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_Plastic_Shiny_BeigeE422D33D43964486CDB91CAE57B018BF.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2017.05.17-15.16.03:142][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.05.17-15.16.03:150][311]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2017.05.17-15.16.03:150][311]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_4 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.03:150][311]LogMaterial:Warning: 	Missing Material Function
+[2017.05.17-15.16.03:150][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.03:194][311]LogSavePackage: Save=18.95ms
+[2017.05.17-15.16.03:194][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_Plastic_Shiny_Beige_LOGOBBA12067477FDA59CF23B287F8C8EACC.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2017.05.17-15.16.03:198][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.05.17-15.16.03:206][311]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_5 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: 	Missing Material Function
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Roughness
+[2017.05.17-15.16.03:206][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property AmbientOcclusion
+[2017.05.17-15.16.03:252][311]LogSavePackage: Save=20.04ms
+[2017.05.17-15.16.03:252][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_SoftMetal_UE459C50A6F4E20583C953D28B02042C885.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2017.05.17-15.16.03:256][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.05.17-15.16.03:387][311]LogSavePackage: Save=115.27ms
+[2017.05.17-15.16.03:387][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Aluminum01E494D9AC425334A33F27A3A2DFD8E678.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2017.05.17-15.16.03:391][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.05.17-15.16.03:466][311]LogSavePackage: Save=57.82ms
+[2017.05.17-15.16.03:466][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Aluminum01_N6A3A26AB4EE5038A365AFBBC462E2EA5.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2017.05.17-15.16.03:470][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.05.17-15.16.03:577][311]LogSavePackage: Save=90.94ms
+[2017.05.17-15.16.03:577][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_FineRubber5A6F5EDD440E6FD67369D4981554F8C3.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset'
+[2017.05.17-15.16.03:581][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset
+[2017.05.17-15.16.03:706][311]LogSavePackage: Save=107.83ms
+[2017.05.17-15.16.03:706][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Rubber_Blue_01_DC738937143AF77F247898991A1DA2295.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2017.05.17-15.16.03:710][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.05.17-15.16.03:839][311]LogSavePackage: Save=115.43ms
+[2017.05.17-15.16.03:839][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Rubber_Blue_01_N6691ABD94977651D2D85D3A25316D292.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2017.05.17-15.16.03:843][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.05.17-15.16.03:853][311]LogAnimation:Warning: SkeletalMesh SK_FPGun has no skeleton. This needs to fixed before an animation can be set
+[2017.05.17-15.16.03:885][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Mesh/SK_FPGun" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun.uasset" SILENT=true
+[2017.05.17-15.16.03:913][311]LogSavePackage: Save=25.74ms
+[2017.05.17-15.16.03:913][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/SK_FPGunC70E39664200C3AE0216C985118A9E05.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun.uasset'
+[2017.05.17-15.16.03:917][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun.uasset
+[2017.05.17-15.16.03:926][311]LogSavePackage: Save=3.27ms
+[2017.05.17-15.16.03:926][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/SK_FPGun_PhysicsAssetE5C145CD4DAE8986370D62B7B244D326.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset'
+[2017.05.17-15.16.03:929][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset
+[2017.05.17-15.16.03:938][311]LogSavePackage: Save=2.68ms
+[2017.05.17-15.16.03:938][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/SK_FPGun_SkeletonECD1369245AE332DECD53FA17388D7FD.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
+[2017.05.17-15.16.03:942][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2017.05.17-15.16.03:956][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Textures/T_FPGun_AO" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_AO.uasset" SILENT=true
+[2017.05.17-15.16.03:973][311]LogSavePackage: Save=14.50ms
+[2017.05.17-15.16.03:973][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_FPGun_AOA75540B5490114BD4F4E479107302C22.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_AO.uasset'
+[2017.05.17-15.16.03:977][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_AO.uasset
+[2017.05.17-15.16.03:987][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Textures/T_FPGun_M" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_M.uasset" SILENT=true
+[2017.05.17-15.16.04:005][311]LogSavePackage: Save=16.71ms
+[2017.05.17-15.16.04:005][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_FPGun_M94BE8ECA4468290A11FDD9BA21DBD164.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_M.uasset'
+[2017.05.17-15.16.04:009][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_M.uasset
+[2017.05.17-15.16.04:023][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Textures/T_FPGun_N" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_N.uasset" SILENT=true
+[2017.05.17-15.16.04:061][311]LogSavePackage: Save=35.35ms
+[2017.05.17-15.16.04:061][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_FPGun_NDDBCEE7C4DE0F5B067C4038FC2090F77.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_N.uasset'
+[2017.05.17-15.16.04:065][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/T_FPGun_N.uasset
+[2017.05.17-15.16.04:129][311]LogSavePackage: Save=48.70ms
+[2017.05.17-15.16.04:129][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_LOGO_CARD529E61894A315B4E05BAA89EADB6CC50.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/UE4_LOGO_CARD.uasset'
+[2017.05.17-15.16.04:132][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/UE4_LOGO_CARD.uasset
+[2017.05.17-15.16.04:332][311]LogSavePackage: Save=184.01ms
+[2017.05.17-15.16.04:332][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_Mannequin_occlusion_Mobile3238A00C4ECBF9039DAC65A2C248D7D1.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile.uasset'
+[2017.05.17-15.16.04:337][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/FPWeapon/Textures/UE4_Mannequin_occlusion_Mobile.uasset
+[2017.05.17-15.16.05:375][311]LogTemp:Display: Finished compile of shader map 0x000002B3F360D600
+[2017.05.17-15.16.05:375][311]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x000002B3F360D600, marking material Material_0 as finished
+[2017.05.17-15.16.05:375][311]LogTemp:Display: Marking material as finished 0x000002B38B047B80
+[2017.05.17-15.16.05:377][311]LogTemp:Display: Finished compile of shader map 0x000002B38C828F00
+[2017.05.17-15.16.05:377][311]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x000002B38C828F00, marking material Material_1 as finished
+[2017.05.17-15.16.05:377][311]LogTemp:Display: Marking material as finished 0x000002B38B045D80
+[2017.05.17-15.16.05:388][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Death_1" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_1.uasset" SILENT=true
+[2017.05.17-15.16.05:397][311]LogSavePackage: Save=7.73ms
+[2017.05.17-15.16.05:397][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Death_154EDF3C740C2B40750AABE9192C06740.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_1.uasset'
+[2017.05.17-15.16.05:403][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_1.uasset
+[2017.05.17-15.16.05:411][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Death_2" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_2.uasset" SILENT=true
+[2017.05.17-15.16.05:420][311]LogSavePackage: Save=6.68ms
+[2017.05.17-15.16.05:420][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Death_28A02C2364E5C710AF4DB92AF9F2AA6CE.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_2.uasset'
+[2017.05.17-15.16.05:424][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_2.uasset
+[2017.05.17-15.16.05:432][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Death_3" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_3.uasset" SILENT=true
+[2017.05.17-15.16.05:441][311]LogSavePackage: Save=6.94ms
+[2017.05.17-15.16.05:441][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Death_31660BCE74560B9B40888D886767D935C.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_3.uasset'
+[2017.05.17-15.16.05:445][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Death_3.uasset
+[2017.05.17-15.16.05:457][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Enemy_Idle" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Enemy_Idle.uasset" SILENT=true
+[2017.05.17-15.16.05:466][311]LogSavePackage: Save=6.58ms
+[2017.05.17-15.16.05:466][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Enemy_Idle870F065A4028ECD5C1CFB28B538EDA46.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Enemy_Idle.uasset'
+[2017.05.17-15.16.05:470][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Enemy_Idle.uasset
+[2017.05.17-15.16.05:479][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Enemy_Walk" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Enemy_Walk.uasset" SILENT=true
+[2017.05.17-15.16.05:487][311]LogSavePackage: Save=6.57ms
+[2017.05.17-15.16.05:487][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Enemy_Walk7364E83A485D373E7E846FAC51E957C4.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Enemy_Walk.uasset'
+[2017.05.17-15.16.05:492][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Enemy_Walk.uasset
+[2017.05.17-15.16.05:513][311]LogSavePackage: Save=7.13ms
+[2017.05.17-15.16.05:513][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Idle_Rifle_HipE372B4FC4018648D2C26598C5987048C.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Idle_Rifle_Hip.uasset'
+[2017.05.17-15.16.05:517][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Idle_Rifle_Hip.uasset
+[2017.05.17-15.16.05:528][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Jog_Bwd_Rifle" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Bwd_Rifle.uasset" SILENT=true
+[2017.05.17-15.16.05:537][311]LogSavePackage: Save=6.64ms
+[2017.05.17-15.16.05:537][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Jog_Bwd_Rifle6AB989004A32F67DFAF98A80B6B114A1.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Bwd_Rifle.uasset'
+[2017.05.17-15.16.05:542][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Bwd_Rifle.uasset
+[2017.05.17-15.16.05:549][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Jog_Fwd_Rifle" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Fwd_Rifle.uasset" SILENT=true
+[2017.05.17-15.16.05:559][311]LogSavePackage: Save=7.02ms
+[2017.05.17-15.16.05:559][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Jog_Fwd_RifleAD7771EF41EE8FB959B1028BBE8D41BC.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Fwd_Rifle.uasset'
+[2017.05.17-15.16.05:564][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Fwd_Rifle.uasset
+[2017.05.17-15.16.05:576][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Jog_Lt_Rifle" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Lt_Rifle.uasset" SILENT=true
+[2017.05.17-15.16.05:584][311]LogSavePackage: Save=6.64ms
+[2017.05.17-15.16.05:584][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Jog_Lt_RifleB701DD464DB263A96785F0A690D931D7.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Lt_Rifle.uasset'
+[2017.05.17-15.16.05:589][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Lt_Rifle.uasset
+[2017.05.17-15.16.05:597][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/Jog_Rt_Rifle" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Rt_Rifle.uasset" SILENT=true
+[2017.05.17-15.16.05:606][311]LogSavePackage: Save=6.84ms
+[2017.05.17-15.16.05:606][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Jog_Rt_RifleFD7BC0BF42DBA15361737682FB10EC91.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Rt_Rifle.uasset'
+[2017.05.17-15.16.05:611][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/Jog_Rt_Rifle.uasset
+[2017.05.17-15.16.05:661][311]LogSavePackage: Save=19.96ms
+[2017.05.17-15.16.05:661][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/M_UE4Man_Body70C79B954647252C57BCDAA3F213DE28.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset'
+[2017.05.17-15.16.05:665][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body.uasset
+[2017.05.17-15.16.05:708][311]LogSavePackage: Save=12.54ms
+[2017.05.17-15.16.05:708][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/M_UE4Man_ChestLogoF8F34ACA41345A6BEBFA38A6834D3881.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset'
+[2017.05.17-15.16.05:713][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset
+[2017.05.17-15.16.05:724][311]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2017.05.17-15.16.05:724][311]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_6 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.05:724][311]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.17-15.16.05:724][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.05.17-15.16.05:724][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.05:765][311]LogSavePackage: Save=15.17ms
+[2017.05.17-15.16.05:765][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_GlossyBlack_Latex_UE470F439804431DDE11D230EB7737871E8.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2017.05.17-15.16.05:770][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.05.17-15.16.05:778][311]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2017.05.17-15.16.05:779][311]LogTemp:Display: Added material ShaderMap 0x000002B38AF82B00 with Material 0x000002B3F644A080 to ShaderMapsBeingCompiled
+[2017.05.17-15.16.05:825][311]LogTemp:Display: Kicking off shader compilation for Material_7, GameThreadShaderMap 0x000002B38AF82B00
+[2017.05.17-15.16.05:862][311]LogSavePackage: Save=13.26ms
+[2017.05.17-15.16.05:862][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_Plastic_Shiny_Beige50B9542A43CCFAC20A1B73808914D8DF.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2017.05.17-15.16.05:866][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.05.17-15.16.05:875][311]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2017.05.17-15.16.05:876][311]LogTemp:Display: Added material ShaderMap 0x000002B3BD5E3900 with Material 0x000002B3F644A380 to ShaderMapsBeingCompiled
+[2017.05.17-15.16.05:933][311]LogTemp:Display: Kicking off shader compilation for Material_8, GameThreadShaderMap 0x000002B3BD5E3900
+[2017.05.17-15.16.05:973][311]LogSavePackage: Save=13.35ms
+[2017.05.17-15.16.05:973][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_Plastic_Shiny_Beige_LOGOE4E926254440F93F7F89DDAC695E895C.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2017.05.17-15.16.05:976][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.05.17-15.16.05:985][311]LogMaterial: Missing cached shader map for material Material_9, compiling. 
+[2017.05.17-15.16.05:985][311]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.17-15.16.05:985][311]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.05.17-15.16.05:985][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property Normal
+[2017.05.17-15.16.05:985][311]LogMaterial:Warning: 	(Node MakeMaterialAttributes) Error on property BaseColor
+[2017.05.17-15.16.06:024][311]LogSavePackage: Save=15.31ms
+[2017.05.17-15.16.06:024][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ML_SoftMetal_UE480CBDA744789D8AE9DF472A227089B66.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2017.05.17-15.16.06:028][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.05.17-15.16.06:061][311]LogSavePackage: Save=16.36ms
+[2017.05.17-15.16.06:061][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Aluminum01CF802E5F4B0563627E1E69A7ED8ECAFE.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2017.05.17-15.16.06:064][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.05.17-15.16.06:090][311]LogSavePackage: Save=9.76ms
+[2017.05.17-15.16.06:090][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Aluminum01_NA98A8B9043A0E29F2398D8973A025D75.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2017.05.17-15.16.06:094][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.05.17-15.16.06:131][311]LogSavePackage: Save=21.78ms
+[2017.05.17-15.16.06:131][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Rubber_Blue_01_DD9911DE2487B88F4AE938E8DA818C1CF.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2017.05.17-15.16.06:136][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.05.17-15.16.06:158][311]LogSavePackage: Save=9.76ms
+[2017.05.17-15.16.06:158][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/T_ML_Rubber_Blue_01_NA0F19EB54E585F37B64C9792F07F946C.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2017.05.17-15.16.06:162][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.05.17-15.16.06:166][311]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2017.05.17-15.16.06:263][311]LogSavePackage: Save=64.30ms
+[2017.05.17-15.16.06:264][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/SK_Mannequin4BE01D8F45421FAF54FEDDAEA5E2B8D8.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2017.05.17-15.16.06:267][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2017.05.17-15.16.06:291][311]LogSavePackage: Save=18.48ms
+[2017.05.17-15.16.06:292][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/SK_Mannequin_PhysicsAssetBDC4DEC14C052CF631A0FC80346BFECA.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2017.05.17-15.16.06:296][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2017.05.17-15.16.06:305][311]LogSavePackage: Save=3.49ms
+[2017.05.17-15.16.06:305][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_Mannequin_SkeletonBCFD967D482D5A41F7797CBEC50B6946.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.05.17-15.16.06:309][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.05.17-15.16.06:334][311]LogSavePackage: Save=11.73ms
+[2017.05.17-15.16.06:334][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4Man_Logo_NF83C893B40E58D7300A30E890EC4D8D9.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset'
+[2017.05.17-15.16.06:338][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset
+[2017.05.17-15.16.06:360][311]LogSavePackage: Save=8.46ms
+[2017.05.17-15.16.06:360][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_LOGO_CARDA41629A44BFCE7DA914047ACA4117B5F.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset'
+[2017.05.17-15.16.06:364][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset
+[2017.05.17-15.16.06:391][311]LogSavePackage: Save=14.48ms
+[2017.05.17-15.16.06:391][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_Mannequin_MAT_MASKAF046B78B43BA20DB1AEAF190FF3EE029.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2017.05.17-15.16.06:396][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.05.17-15.16.06:436][311]LogSavePackage: Save=14.19ms
+[2017.05.17-15.16.06:436][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_Mannequin_occlusion_Mobile8C0C7144433490AB545224862C96FA14.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset'
+[2017.05.17-15.16.06:440][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset
+[2017.05.17-15.16.06:548][311]LogSavePackage: Save=95.35ms
+[2017.05.17-15.16.06:548][311]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UE4_Mannequin__normals2D5A593B457F8EB4795C63A7384B0BE7.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset'
+[2017.05.17-15.16.06:553][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset
+[2017.05.17-15.16.12:184][818]LogTemp:Display: Finished compile of shader map 0x000002B38AF82B00
+[2017.05.17-15.16.12:184][818]LogTemp:Display: Shader map Material_7 complete, GameThreadShaderMap 0x000002B38AF82B00, marking material Material_7 as finished
+[2017.05.17-15.16.12:184][818]LogTemp:Display: Marking material as finished 0x000002B3F644A080
+[2017.05.17-15.16.14:058][ 37]LogTemp:Display: Finished compile of shader map 0x000002B3BD5E3900
+[2017.05.17-15.16.14:058][ 37]LogTemp:Display: Shader map Material_8 complete, GameThreadShaderMap 0x000002B3BD5E3900, marking material Material_8 as finished
+[2017.05.17-15.16.14:058][ 37]LogTemp:Display: Marking material as finished 0x000002B3F644A380
+[2017.05.17-15.17.42:343][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 액션 이벤트가  BulletTrigger 입력 액션  에 대한 미확인 'BulletTrigger' 액션을 레퍼런싱합니다.
+[2017.05.17-15.17.42:344][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  TurnForward 입력 축  에 대한 미확인 'TurnForward' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:344][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:344][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  MoveForward 입력 축  에 대한 미확인 'MoveForward' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:344][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  MoveRight 입력 축  에 대한 미확인 'MoveRight' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:347][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 [0211.31] HeroBP 컴파일에 성공했습니다만, 경고가 5 회 있습니다. [소요시간 8 ms] (/Game/Hero/HeroBP.HeroBP)
+[2017.05.17-15.17.42:347][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 [0211.31] HeroBP 컴파일에 성공했습니다만, 경고가 6 회 있습니다. [소요시간 0 ms] (/Game/Hero/HeroBP.HeroBP)
+[2017.05.17-15.17.42:347][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 [0211.31] HeroBP 컴파일에 성공했습니다만, 경고가 7 회 있습니다. [소요시간 0 ms] (/Game/Hero/HeroBP.HeroBP)
+[2017.05.17-15.17.42:374][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 액션 이벤트가  BulletTrigger 입력 액션  에 대한 미확인 'BulletTrigger' 액션을 레퍼런싱합니다.
+[2017.05.17-15.17.42:374][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  TurnForward 입력 축  에 대한 미확인 'TurnForward' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:374][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  Turn 입력 축  에 대한 미확인 'Turn' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:375][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  MoveForward 입력 축  에 대한 미확인 'MoveForward' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:375][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 입력 축 이벤트가  MoveRight 입력 축  에 대한 미확인 'MoveRight' 축을 레퍼런싱합니다.
+[2017.05.17-15.17.42:378][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 [0211.34] HeroBP 컴파일에 성공했습니다만, 경고가 5 회 있습니다. [소요시간 8 ms] (/Game/Hero/HeroBP.HeroBP)
+[2017.05.17-15.17.42:378][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 [0211.34] HeroBP 컴파일에 성공했습니다만, 경고가 6 회 있습니다. [소요시간 0 ms] (/Game/Hero/HeroBP.HeroBP)
+[2017.05.17-15.17.42:378][821]LogBlueprint:Warning: [Compiler HeroBP] 경고 [0211.34] HeroBP 컴파일에 성공했습니다만, 경고가 7 회 있습니다. [소요시간 0 ms] (/Game/Hero/HeroBP.HeroBP)
+[2017.05.17-15.17.42:456][821]LogAIModule: Creating AISystem for world TestLevel
+[2017.05.17-15.17.44:153][ 22]LogAIModule: Creating AISystem for world EnemyDamageTestLevel
+[2017.05.17-15.17.44:182][ 22]LogAIModule: Creating AISystem for world EnemySpawningTestLevel
+[2017.05.17-15.17.44:192][ 22]LogAIModule: Creating AISystem for world HeroDamageTestLevel
+[2017.05.17-15.17.44:200][ 22]LogAIModule: Creating AISystem for world LocomotionTestLevel
+[2017.05.17-15.17.44:215][ 22]LogAIModule: Creating AISystem for world Map
+[2017.05.17-15.17.49:814][448]LogAIModule: Creating AISystem for world Untitled
+[2017.05.17-15.17.54:129][616]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.17-15.17.54:147][616]LightingResults: New page: 라이팅 빌드
+[2017.05.17-15.17.54:150][616]LoadErrors: New page: 맵 로드중: Template_Default.umap
+[2017.05.17-15.17.54:150][616]MapCheck: New page: 맵 체크
+[2017.05.17-15.17.54:150][616]LightingResults: New page: 라이팅 빌드
+[2017.05.17-15.17.54:188][616]LogAIModule: Creating AISystem for world Untitled_2
+[2017.05.17-15.17.54:191][616]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_2.Untitled_2:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.17-15.17.54:195][616]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.17-15.17.54:204][616]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.17-15.17.54:321][616]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 116.529ms.
+[2017.05.17-15.17.54:321][616]LogFileHelpers: Loading map 'Template_Default' took 0.193
+[2017.05.17-15.17.56:917][922]LogAIModule: Creating AISystem for world Untitled
+[2017.05.17-15.18.01:466][396]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.17-15.18.02:047][396]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.17-15.18.02:170][396]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.17-15.18.02:269][397]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.17-15.18.08:411][998]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.17-15.18.09:104][  2]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.exam2014184024
+
+[2017.05.17-15.18.09:104][  2]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-15.18.09:104][  2]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.17-15.18.09:104][  2]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-15.18.09:104][  2]LogTemp:Display: BranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.17-15.18.09:135][  4]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\SiHyeon\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.17-15.18.09:135][  4]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.17-15.18.09:135][  4]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.17-15.18.09:135][  4]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.17-15.18.09:135][  4]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.17-15.18.09:135][  4]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.17-15.18.24:817][839]LogAnimation:Warning: SkeletalMesh SK_Mannequin has no skeleton. This needs to fixed before an animation can be set
+[2017.05.17-15.18.43:513][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.17-15.18.43:558][166]LogSavePackage: Save=29.97ms
+[2017.05.17-15.18.43:558][166]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/test0F3101C34008CFF477DB0F8ED471D9C4.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap'
+[2017.05.17-15.18.43:563][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap
+[2017.05.17-15.18.43:581][166]LogFileHelpers: Saving map 'test' took 0.334
+[2017.05.17-15.18.51:106][580]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.17-15.18.51:810][585]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.exam2014184024
+
+[2017.05.17-15.18.51:810][585]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-15.18.51:810][585]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.17-15.18.51:810][585]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-15.18.51:820][586]LogTemp:Display: BranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.17-15.18.51:843][589]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\SiHyeon\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.17-15.18.51:843][589]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.17-15.18.51:843][589]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.17-15.18.51:843][589]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.17-15.18.51:843][589]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.17-15.18.51:843][589]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/Enemy/EnemyBP'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Game/Enemy/EnemyBP'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DecreaseHP' or package '/Game/Enemy/EnemyBP'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DecreaseHeroHP' or package '/Game/Enemy/EnemyBP'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorEndOverlap' or package '/Game/Enemy/EnemyBP'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_EnemyBP_C_1' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DamageBox_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_EnemyBP_C_0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_A77C13F044F71428EA87448B31FC2005' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_A77C13F044F71428EA87448B31FC2005' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:535][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ChaseHero' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_EnemyAIController' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnFail_A77C13F044F71428EA87448B31FC2005' or package '/Game/Enemy/EnemyAIController'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnSuccess_A77C13F044F71428EA87448B31FC2005' or package '/Game/Enemy/EnemyAIController'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_EnemyAIController_C_3' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/Enemy/EnemyAIController'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ChaseHero' or package '/Game/Enemy/EnemyAIController'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_EnemyAIController_C_2' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'hp' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DamageBox' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_EnemyBP' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorEndOverlap' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DecreaseHeroHP' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DecreaseHP' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:536][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_EnemyBP_C_0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_EnemySpawnerBP_C_4' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpawnVolume_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_EnemySpawnerBP_C_5' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpawnEnemy' or package '/Game/Enemy/EnemySpawnerBP'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/Enemy/EnemySpawnerBP'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GameMode' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:537][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NumberEnemies' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpawnVolume' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_EnemySpawnerBP' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpawnEnemy' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_EnemySpawnerBP_C_72' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_EnemySpawnerBP_C_71' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_EnemyAIController_C_70' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_EnemyAIController_C_69' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:538][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_EnemyBP_C_68' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:539][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:539][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_EnemyBP_C_67' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:539][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_EnemyBP_C_67' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:539][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.EnemyBP_C_0.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.17-15.21.15:539][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EnemyBP_C_0' or package '/Engine/Transient'.
+[2017.05.17-15.21.15:539][ 43]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CharacterMesh0' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:767][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_HUD_C_3' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:767][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ShowScore' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ShowHeroHP' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GameScore' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'HeroHP' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GameUI' or package '/Game/ShooterGameMode'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HUD_C_7' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HUD_C_6' or package '/Engine/Transient'.
+[2017.05.17-15.21.39:768][199]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HUD_C_2' or package '/Engine/Transient'.
+[2017.05.17-15.21.43:247][399]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
