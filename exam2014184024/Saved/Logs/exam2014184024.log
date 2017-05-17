@@ -517,3 +517,1088 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.05.17-15.26.31:089][720]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-00.26.31
 [2017.05.17-15.26.31:089][720]LogWorld: Bringing up level for play took: 0.001024
 [2017.05.17-15.26.31:091][720]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.782
+[2017.05.17-15.35.46:275][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/test' took 0.015
+[2017.05.17-15.35.46:277][ 26]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gun/BulletBP] ([1] browsable assets)...
+[2017.05.17-15.35.46:301][ 26]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Gun/BulletBP.BulletBP]
+[2017.05.17-15.35.46:301][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gun/BulletBP]
+[2017.05.17-15.35.46:329][ 26]LogSavePackage: Save=22.34ms
+[2017.05.17-15.35.46:329][ 26]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/BulletBP_Auto1C2A3CD8C4EA7B9D6F90532B17D6F6589.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/Gun/BulletBP_Auto1.uasset'
+[2017.05.17-15.35.46:331][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/Gun/BulletBP_Auto1.uasset
+[2017.05.17-15.35.46:331][ 26]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.05.17-15.38.07:713][735]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-15.38.07:723][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-15.38.07:723][735]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 9:38:07)
+[2017.05.17-15.38.07:723][735]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-15.38.07:725][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001986s)
+[2017.05.17-15.38.07:726][735]LogAIModule: Creating AISystem for world test
+[2017.05.17-15.38.07:726][735]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2017.05.17-15.38.07:726][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.003045s)
+[2017.05.17-15.38.07:744][735]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-15.38.07:764][735]LogInit: FAudioDevice initialized.
+[2017.05.17-15.38.07:795][735]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-15.38.07:798][735]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-00.38.07
+[2017.05.17-15.38.07:798][735]LogWorld: Bringing up level for play took: 0.001172
+[2017.05.17-15.38.07:801][735]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: -0.509
+[2017.05.17-15.38.17:756][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.17-15.38.17:769][599]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.17-15.38.18:533][691]Cmd: EDIT PASTE
+[2017.05.17-15.38.26:617][ 66]Cmd: EDIT PASTE
+[2017.05.17-15.38.45:813][311]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.45:813][311]LogTemp:Display: Added material ShaderMap 0x00000211E0CEFC80 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.45:830][311]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211E0CEFC80
+[2017.05.17-15.38.45:902][311]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.45:903][311]LogTemp:Display: Added material ShaderMap 0x0000021218F80800 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.45:911][311]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x0000021218F80800
+[2017.05.17-15.38.45:911][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.49:618][657]LogTemp:Display: Finished compile of shader map 0x0000021218F80800
+[2017.05.17-15.38.49:618][657]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x0000021218F80800, marking material Floor as finished
+[2017.05.17-15.38.49:618][657]LogTemp:Display: Marking material as finished 0x00000211E55EC680
+[2017.05.17-15.38.49:629][658]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.17-15.38.49:629][658]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.17-15.38.49:629][658]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.17-15.38.50:993][793]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.50:994][793]LogTemp:Display: Added material ShaderMap 0x00000211813CE780 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.51:003][793]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211813CE780
+[2017.05.17-15.38.51:003][793]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.51:004][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.17-15.38.51:005][793]LogTemp:Display: Added material ShaderMap 0x0000021222B28100 with Material 0x00000211B9D88400 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.51:006][793]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000021222B28100
+[2017.05.17-15.38.52:451][936]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.52:452][936]LogTemp:Display: Added material ShaderMap 0x00000211CD130B80 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.52:460][936]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211CD130B80
+[2017.05.17-15.38.52:460][936]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.52:463][936]LogTemp:Display: Removed shader map 0x0000021222B28100 from material 0x00000211B9D88400
+[2017.05.17-15.38.52:486][936]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.17-15.38.52:487][936]LogTemp:Display: Added material ShaderMap 0x00000211CE17A780 with Material 0x00000211D2D84A00 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.52:489][936]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000211CE17A780
+[2017.05.17-15.38.52:883][975]LogTemp:Display: Finished compile of shader map 0x00000211813CE780
+[2017.05.17-15.38.52:883][975]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x00000211813CE780, marking material Floor as finished
+[2017.05.17-15.38.52:883][975]LogTemp:Display: Marking material as finished 0x00000211E55EC680
+[2017.05.17-15.38.54:704][154]LogTemp:Display: Finished compile of shader map 0x00000211CD130B80
+[2017.05.17-15.38.54:704][154]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x00000211CD130B80, marking material Floor as finished
+[2017.05.17-15.38.54:704][154]LogTemp:Display: Marking material as finished 0x00000211E55EC680
+[2017.05.17-15.38.54:716][155]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.17-15.38.54:716][155]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.17-15.38.54:716][155]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.17-15.38.54:859][169]LogTemp:Display: Finished compile of shader map 0x00000211CE17A780
+[2017.05.17-15.38.54:859][169]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x00000211CE17A780, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.17-15.38.54:859][169]LogTemp:Display: Marking material as finished 0x00000211D2D84A00
+[2017.05.17-15.38.55:224][206]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.55:224][206]LogTemp:Display: Added material ShaderMap 0x00000211CE17A400 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.55:233][206]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211CE17A400
+[2017.05.17-15.38.55:233][206]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.55:259][206]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.17-15.38.55:259][206]LogTemp:Display: Added material ShaderMap 0x00000211CD130B80 with Material 0x00000211D2D84A00 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.55:261][206]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000211CD130B80
+[2017.05.17-15.38.56:269][305]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.56:269][305]LogTemp:Display: Added material ShaderMap 0x00000211CE17A780 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.56:278][305]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211CE17A780
+[2017.05.17-15.38.56:278][305]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.56:282][305]LogTemp:Display: Removed shader map 0x00000211CD130B80 from material 0x00000211D2D84A00
+[2017.05.17-15.38.56:305][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.17-15.38.56:305][305]LogTemp:Display: Added material ShaderMap 0x00000211CD123580 with Material 0x00000211CF14EB00 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.56:307][305]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000211CD123580
+[2017.05.17-15.38.56:802][352]LogTemp:Display: Finished compile of shader map 0x00000211CE17A400
+[2017.05.17-15.38.56:802][352]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x00000211CE17A400, marking material Floor as finished
+[2017.05.17-15.38.56:802][352]LogTemp:Display: Marking material as finished 0x00000211E55EC680
+[2017.05.17-15.38.57:874][459]LogMaterialEditor: Saving and Compiling material Floor
+[2017.05.17-15.38.58:553][459]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.58:553][459]LogTemp:Display: Added material ShaderMap 0x00000211CEDFA400 with Material 0x00000211E55EC680 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.58:571][459]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211CEDFA400
+[2017.05.17-15.38.58:571][459]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.58:591][459]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.58:591][459]LogTemp:Display: Added material ShaderMap 0x0000021222B2B900 with Material 0x00000211BF47A800 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.58:606][459]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x0000021222B2B900
+[2017.05.17-15.38.58:609][459]LogMaterial: Missing cached shader map for material Floor, compiling. 
+[2017.05.17-15.38.58:609][459]LogTemp:Display: Added material ShaderMap 0x00000211D2F5D600 with Material 0x00000211BF47A800 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.58:620][459]LogTemp:Display: Kicking off shader compilation for Floor, GameThreadShaderMap 0x00000211D2F5D600
+[2017.05.17-15.38.58:621][459]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.17-15.38.58:637][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Floor, compiling. 
+[2017.05.17-15.38.58:638][459]LogTemp:Display: Added material ShaderMap 0x00000211CFE6D280 with Material 0x00000211B9D88100 to ShaderMapsBeingCompiled
+[2017.05.17-15.38.59:333][459]LogTemp:Display: Finished compile of shader map 0x00000211CFE6D280
+[2017.05.17-15.38.59:333][459]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Floor complete, GameThreadShaderMap 0x00000211CFE6D280, marking material FDebugViewModeMaterialProxy Floor as finished
+[2017.05.17-15.38.59:333][459]LogTemp:Display: Marking material as finished 0x00000211B9D88100
+[2017.05.17-15.38.59:335][459]TextureStreamingBuild:Display: Compiling optional shaders took 0.703 seconds.
+[2017.05.17-15.39.00:516][459]LogTemp:Display: Finished compile of shader map 0x00000211D2F5D600
+[2017.05.17-15.39.00:516][459]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x00000211D2F5D600, marking material Floor as finished
+[2017.05.17-15.39.00:516][459]LogTemp:Display: Marking material as finished 0x00000211BF47A800
+[2017.05.17-15.39.00:522][459]LogTemp:Display: Finished compile of shader map 0x00000211CE17A780
+[2017.05.17-15.39.00:522][459]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x00000211CE17A780, marking material Floor as finished
+[2017.05.17-15.39.00:522][459]LogTemp:Display: Marking material as finished 0x00000211E55EC680
+[2017.05.17-15.39.00:523][459]LogTemp:Display: Finished compile of shader map 0x00000211CEDFA400
+[2017.05.17-15.39.00:523][459]LogTemp:Display: Shader map Floor complete, GameThreadShaderMap 0x00000211CEDFA400, marking material Floor as finished
+[2017.05.17-15.39.00:523][459]LogTemp:Display: Marking material as finished 0x00000211E55EC680
+[2017.05.17-15.39.00:525][459]LogTemp:Display: Finished compile of shader map 0x00000211CD123580
+[2017.05.17-15.39.00:525][459]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x00000211CD123580, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.17-15.39.00:525][459]LogTemp:Display: Marking material as finished 0x00000211CF14EB00
+[2017.05.17-15.39.00:567][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Floor" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Floor.uasset" SILENT=true
+[2017.05.17-15.39.00:582][459]LogSavePackage: Save=12.65ms
+[2017.05.17-15.39.00:582][459]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Floor8DFF81F24613A73B8602CB9C8638B7AA.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Floor.uasset'
+[2017.05.17-15.39.00:587][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Floor.uasset
+[2017.05.17-15.39.00:594][459]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.17-15.39.00:594][459]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.17-15.39.00:594][459]MaterialEditorStats: 정보 Texture samplers: 2/16
+[2017.05.17-15.39.04:527][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.17-15.39.04:545][878]LogSavePackage: Save=13.68ms
+[2017.05.17-15.39.04:545][878]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/BulletBP04FF4B594E7E7AEDDB490D83FA036D28.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Gun/BulletBP.uasset'
+[2017.05.17-15.39.04:549][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Gun/BulletBP.uasset
+[2017.05.17-15.39.04:676][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.17-15.39.04:732][878]LogSavePackage: Save=37.30ms
+[2017.05.17-15.39.04:732][878]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/test41E04EE84170C6DF93AC3FB8BC1B4086.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap'
+[2017.05.17-15.39.04:737][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap
+[2017.05.17-15.39.04:752][878]LogFileHelpers: Saving map 'test' took 0.199
+[2017.05.17-15.39.10:218][318]Cmd: EDIT PASTE
+[2017.05.17-15.39.14:603][832]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.17-15.39.15:841][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.17-15.39.15:896][942]LogSavePackage: Save=37.77ms
+[2017.05.17-15.39.15:896][942]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/test9B4F3EDF455728E608803B97132B0F25.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap'
+[2017.05.17-15.39.15:902][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap
+[2017.05.17-15.39.15:916][942]LogFileHelpers: Saving map 'test' took 0.196
+[2017.05.17-15.40.08:940][257]LogTemp:Display: Removed shader map 0x00000211E0CEFC80 from material 0x00000211E55EC680
+[2017.05.17-15.40.12:333][643]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.05.17-15.40.12:334][643]LogTemp:Display: Added material ShaderMap 0x000002121904F200 with Material 0x00000211C00D5C00 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:369][643]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x000002121904F200
+[2017.05.17-15.40.12:389][644]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.05.17-15.40.12:390][644]LogTemp:Display: Added material ShaderMap 0x00000211C0A44800 with Material 0x00000211A37AF580 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:414][644]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x00000211C0A44800
+[2017.05.17-15.40.12:443][645]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.05.17-15.40.12:444][645]LogTemp:Display: Added material ShaderMap 0x00000211BFA6A400 with Material 0x0000021195F7C580 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:467][645]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x00000211BFA6A400
+[2017.05.17-15.40.12:489][646]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.05.17-15.40.12:490][646]LogTemp:Display: Added material ShaderMap 0x00000211CD759600 with Material 0x0000021195F8C880 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:514][646]LogTemp:Display: Kicking off shader compilation for Material_3, GameThreadShaderMap 0x00000211CD759600
+[2017.05.17-15.40.12:538][647]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2017.05.17-15.40.12:539][647]LogTemp:Display: Added material ShaderMap 0x00000211CDF88800 with Material 0x0000021195F96080 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:564][647]LogTemp:Display: Kicking off shader compilation for Material_4, GameThreadShaderMap 0x00000211CDF88800
+[2017.05.17-15.40.12:580][648]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2017.05.17-15.40.12:581][648]LogTemp:Display: Added material ShaderMap 0x000002119B013900 with Material 0x000002119BECF580 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:604][648]LogTemp:Display: Kicking off shader compilation for Material_5, GameThreadShaderMap 0x000002119B013900
+[2017.05.17-15.40.12:623][649]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2017.05.17-15.40.12:625][649]LogTemp:Display: Added material ShaderMap 0x00000211BD493200 with Material 0x000002118CE39780 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:647][649]LogTemp:Display: Kicking off shader compilation for Material_6, GameThreadShaderMap 0x00000211BD493200
+[2017.05.17-15.40.12:667][650]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2017.05.17-15.40.12:668][650]LogTemp:Display: Added material ShaderMap 0x0000021222936780 with Material 0x00000211BC71E380 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:691][650]LogTemp:Display: Kicking off shader compilation for Material_7, GameThreadShaderMap 0x0000021222936780
+[2017.05.17-15.40.12:720][651]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2017.05.17-15.40.12:721][651]LogTemp:Display: Added material ShaderMap 0x00000211CD75B200 with Material 0x00000211BEBBC880 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:724][651]LogTemp:Display: Kicking off shader compilation for Material_8, GameThreadShaderMap 0x00000211CD75B200
+[2017.05.17-15.40.12:756][652]LogMaterial: Missing cached shader map for material Material_9, compiling. 
+[2017.05.17-15.40.12:757][652]LogTemp:Display: Added material ShaderMap 0x00000211CCAB3C80 with Material 0x00000211BEBC6200 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.12:761][652]LogTemp:Display: Kicking off shader compilation for Material_9, GameThreadShaderMap 0x00000211CCAB3C80
+[2017.05.17-15.40.21:597][467]LogTemp:Display: Finished compile of shader map 0x000002121904F200
+[2017.05.17-15.40.21:597][467]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x000002121904F200, marking material Material_0 as finished
+[2017.05.17-15.40.21:597][467]LogTemp:Display: Marking material as finished 0x00000211C00D5C00
+[2017.05.17-15.40.24:761][807]LogTemp:Display: Finished compile of shader map 0x00000211C0A44800
+[2017.05.17-15.40.24:761][807]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x00000211C0A44800, marking material Material_1 as finished
+[2017.05.17-15.40.24:761][807]LogTemp:Display: Marking material as finished 0x00000211A37AF580
+[2017.05.17-15.40.29:169][247]LogTemp:Display: Finished compile of shader map 0x00000211BFA6A400
+[2017.05.17-15.40.29:169][247]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x00000211BFA6A400, marking material Material_2 as finished
+[2017.05.17-15.40.29:169][247]LogTemp:Display: Marking material as finished 0x0000021195F7C580
+[2017.05.17-15.40.32:871][613]LogTemp:Display: Finished compile of shader map 0x00000211CD759600
+[2017.05.17-15.40.32:871][613]LogTemp:Display: Shader map Material_3 complete, GameThreadShaderMap 0x00000211CD759600, marking material Material_3 as finished
+[2017.05.17-15.40.32:871][613]LogTemp:Display: Marking material as finished 0x0000021195F8C880
+[2017.05.17-15.40.35:895][906]LogTemp:Display: Finished compile of shader map 0x00000211CDF88800
+[2017.05.17-15.40.35:895][906]LogTemp:Display: Shader map Material_4 complete, GameThreadShaderMap 0x00000211CDF88800, marking material Material_4 as finished
+[2017.05.17-15.40.35:895][906]LogTemp:Display: Marking material as finished 0x0000021195F96080
+[2017.05.17-15.40.38:665][143]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body_Inst, compiling. 
+[2017.05.17-15.40.38:667][143]LogTemp:Display: Added material ShaderMap 0x000002121963FC80 with Material 0x0000021219E4E200 to ShaderMapsBeingCompiled
+[2017.05.17-15.40.38:921][143]LogTemp:Display: Finished compile of shader map 0x000002121963FC80
+[2017.05.17-15.40.38:921][143]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body_Inst complete, GameThreadShaderMap 0x000002121963FC80, marking material FDebugViewModeMaterialProxy M_UE4Man_Body_Inst as finished
+[2017.05.17-15.40.38:921][143]LogTemp:Display: Marking material as finished 0x0000021219E4E200
+[2017.05.17-15.40.38:924][143]TextureStreamingBuild:Display: Compiling optional shaders took 0.263 seconds.
+[2017.05.17-15.40.39:018][143]LogSavePackage: Save=13.58ms
+[2017.05.17-15.40.39:018][143]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/M_UE4Man_Body_Inst74941A6140E37EFF95F4A9BA9E8D7AD1.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body_Inst.uasset'
+[2017.05.17-15.40.39:022][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_Body_Inst.uasset
+[2017.05.17-15.40.39:435][170]LogTemp:Display: Finished compile of shader map 0x000002119B013900
+[2017.05.17-15.40.39:435][170]LogTemp:Display: Shader map Material_5 complete, GameThreadShaderMap 0x000002119B013900, marking material Material_5 as finished
+[2017.05.17-15.40.39:435][170]LogTemp:Display: Marking material as finished 0x000002119BECF580
+[2017.05.17-15.40.43:921][656]LogLinker:Warning: '/Game/Enemy/EnemyBodyMI' 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:921][656]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset 로드중 '/Game/Enemy/EnemyBodyMI' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:922][656]LoadErrors:Error: 오류 /Game/Enemy/EnemyBP : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Enemy/EnemyBodyMI
+[2017.05.17-15.40.43:922][656]LogLinker:Warning: '/Game/Enemy/EnemyBodyMI' 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:922][656]LogLinker:Warning: ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset 로드중 '/Game/Enemy/EnemyBodyMI' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:923][656]LogLinker:Warning: '/Game/Enemy/EnemyBodyMI' 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:924][656]LogLinker:Warning: NULL 로드중 '/Game/Enemy/EnemyBodyMI' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:924][656]LogLinker:Warning: '/Game/Enemy/EnemyBodyMI' 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:924][656]LogLinker:Warning: NULL 로드중 '/Game/Enemy/EnemyBodyMI' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:924][656]LogLinker:Warning: '/Game/Enemy/EnemyBodyMI' 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:924][656]LoadErrors: 정보 로드에 실패했습니다. /Game/Enemy/EnemyBodyMI.EnemyBodyMI 레퍼런싱한 것: Default__EnemyBP_C
+[2017.05.17-15.40.43:925][656]LogLinker:Warning: NULL 로드중 '/Game/Enemy/EnemyBodyMI' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.17-15.40.43:934][656]LogBlueprint:Error: [Compiler EnemyBP] 오류 이름이 "IncreaseScore" 인 함수를 'ShooterGameMode_C' 에서 찾을 수 없었습니다.
+'ShooterGameMode_C' 컴파일이  Increase Score  에 대해 되었는지 확인하세요.
+[2017.05.17-15.40.43:934][656]LogBlueprint:Error: [Compiler EnemyBP] 오류 이름이 "DecreaseNumberEnemies" 인 함수를 'ShooterGameMode_C' 에서 찾을 수 없었습니다.
+'ShooterGameMode_C' 컴파일이  Decrease Number Enemies  에 대해 되었는지 확인하세요.
+[2017.05.17-15.40.43:940][656]LogBlueprint:Warning: [Compiler EnemyBP] 경고 [1103.40] EnemyBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 0 회, [소요시간 8 ms] (/Game/Enemy/EnemyBP.EnemyBP)
+[2017.05.17-15.40.43:940][656]LogBlueprint:Warning: [Compiler EnemyBP] 경고 [1103.40] EnemyBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 1 회, [소요시간 0 ms] (/Game/Enemy/EnemyBP.EnemyBP)
+[2017.05.17-15.40.43:940][656]LogBlueprint:Warning: [Compiler EnemyBP] 경고 [1103.40] EnemyBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 2 회, [소요시간 0 ms] (/Game/Enemy/EnemyBP.EnemyBP)
+[2017.05.17-15.40.45:166][723]LogTemp:Display: Finished compile of shader map 0x00000211BD493200
+[2017.05.17-15.40.45:166][723]LogTemp:Display: Shader map Material_6 complete, GameThreadShaderMap 0x00000211BD493200, marking material Material_6 as finished
+[2017.05.17-15.40.45:166][723]LogTemp:Display: Marking material as finished 0x000002118CE39780
+[2017.05.17-15.40.47:463][921]LogTemp:Display: Finished compile of shader map 0x00000211CCAB3C80
+[2017.05.17-15.40.47:463][921]LogTemp:Display: Shader map Material_9 complete, GameThreadShaderMap 0x00000211CCAB3C80, marking material Material_9 as finished
+[2017.05.17-15.40.47:463][921]LogTemp:Display: Marking material as finished 0x00000211BEBC6200
+[2017.05.17-15.40.47:844][951]LogTemp:Display: Finished compile of shader map 0x0000021222936780
+[2017.05.17-15.40.47:844][951]LogTemp:Display: Shader map Material_7 complete, GameThreadShaderMap 0x0000021222936780, marking material Material_7 as finished
+[2017.05.17-15.40.47:844][951]LogTemp:Display: Marking material as finished 0x00000211BC71E380
+[2017.05.17-15.40.47:847][951]LogTemp:Display: Finished compile of shader map 0x00000211CD75B200
+[2017.05.17-15.40.47:847][951]LogTemp:Display: Shader map Material_8 complete, GameThreadShaderMap 0x00000211CD75B200, marking material Material_8 as finished
+[2017.05.17-15.40.47:847][951]LogTemp:Display: Marking material as finished 0x00000211BEBBC880
+[2017.05.17-15.41.04:167][357]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.41.08:767][732]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.41.09:398][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-15.41.09:436][775]LogSavePackage: Save=32.00ms
+[2017.05.17-15.41.09:436][775]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP5335719F46639EE766037085FC77A209.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-15.41.09:442][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-15.41.19:695][813]LogBlueprint:Warning: [EnemySpawnerBP] 'NumberEnemies' variable not found. Base class was probably changed.
+[2017.05.17-15.41.19:698][813]LogBlueprint:Error: [Compiler EnemySpawnerBP] 오류 이름이 "IncreaseNumberEnemies" 인 함수를 'ShooterGameMode_C' 에서 찾을 수 없었습니다.
+'ShooterGameMode_C' 컴파일이  Increase Number Enemies  에 대해 되었는지 확인하세요.
+[2017.05.17-15.41.19:698][813]LogBlueprint:Warning: [Compiler EnemySpawnerBP] 경고 이름이 "NumberEnemies" 인 함수를 'ShooterGameMode_C' 에서 찾을 수 없었습니다.
+'ShooterGameMode_C' 컴파일이  NumberEnemies 구하기  에 대해 되었는지 확인하세요.
+[2017.05.17-15.41.19:698][813]LogBlueprint:Error: [Compiler EnemySpawnerBP] 오류  Number Enemies  와 연관된 프로퍼티를 찾지 못했습니다.
+[2017.05.17-15.41.19:701][813]LogBlueprint:Warning: [Compiler EnemySpawnerBP] 경고 [1139.16] EnemySpawnerBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 1 회, [소요시간 5 ms] (/Game/Enemy/EnemySpawnerBP.EnemySpawnerBP)
+[2017.05.17-15.41.19:701][813]LogBlueprint:Warning: [Compiler EnemySpawnerBP] 경고 [1139.16] EnemySpawnerBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 2 회, [소요시간 0 ms] (/Game/Enemy/EnemySpawnerBP.EnemySpawnerBP)
+[2017.05.17-15.41.19:701][813]LogBlueprint:Warning: [Compiler EnemySpawnerBP] 경고 [1139.16] EnemySpawnerBP 컴파일에 실패했습니다. 치명적 문제 2 회, 경고 3 회, [소요시간 0 ms] (/Game/Enemy/EnemySpawnerBP.EnemySpawnerBP)
+[2017.05.17-15.41.19:702][813]LogBlueprint:Warning: [EnemySpawnerBP] 'NumberEnemies' variable not found. Base class was probably changed.
+[2017.05.17-15.42.11:389][264]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.259 s
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: 
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: Ensure condition failed: WatchedPin [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\GraphEditor\Private\KismetNodes\KismetNodeInfoContext.cpp] [Line: 92]
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: 
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: Stack: 
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000658095E6
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000655B9B82
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000655CB666
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000005DECEB3A
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000005E0165D6
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77ABE
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000641FD1AA
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000641FCECC
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77ABE
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77C08
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000642791BD
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000642791BD
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77ABE
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77C08
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000641FCECC
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77ABE
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77C08
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000642791BD
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77ABE
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77C08
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A79060
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77C08
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77ABE
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A7778E
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A77CAA
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x0000000067A78C55
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000640430FD
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006404411C
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006407CF94
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000640441C0
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000640A2674
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000640A15C0
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor.exe!0x0000000054F8EA1D
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor.exe!0x0000000054F7EB40
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor.exe!0x0000000054F7EBBA
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor.exe!0x0000000054F90A29
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: UE4Editor.exe!0x0000000054F922B6
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: KERNEL32.DLL!0x000000008A618364
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: ntdll.dll!0x000000008CE970D1
+[2017.05.17-15.42.11:389][264]LogOutputDevice:Error: 
+[2017.05.17-15.42.11:396][264]LogStats:                SubmitErrorReport -  0.000 s
+[2017.05.17-15.42.11:790][264]LogStats:                    SendNewReport -  0.394 s
+[2017.05.17-15.42.11:790][264]LogStats:             FDebug::EnsureFailed -  0.661 s
+[2017.05.17-15.42.50:935][418]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.17-15.43.06:090][941]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-15.43.06:104][941]LogBlueprint:Error: [Compiler EnemySpawnerBP] 오류 이름이 "IncreaseNumberEnemies" 인 함수를 'ShooterGameMode_C' 에서 찾을 수 없었습니다.
+'ShooterGameMode_C' 컴파일이  Increase Number Enemies  에 대해 되었는지 확인하세요.
+[2017.05.17-15.43.06:853][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-15.43.06:870][974]LogSavePackage: Save=10.69ms
+[2017.05.17-15.43.06:870][974]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode42DAC65C4690670D8F504B8D7E5E1269.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-15.43.06:875][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-15.43.34:307][638]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-15.43.35:136][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-15.43.35:149][703]LogSavePackage: Save=9.97ms
+[2017.05.17-15.43.35:149][703]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode87CBCFF248C913C0504A118369E39505.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-15.43.35:155][703]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-15.44.01:668][518]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-15.44.02:333][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-15.44.02:350][550]LogSavePackage: Save=12.67ms
+[2017.05.17-15.44.02:350][550]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode7CFDB33542A50BF4308F0EB52058E1D1.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-15.44.02:356][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-15.45.16:524][445]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-15.45.17:243][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-15.45.17:261][497]LogSavePackage: Save=14.68ms
+[2017.05.17-15.45.17:261][497]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameModeAF045B8946F6AB0443A5CC8D9A3286C9.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-15.45.17:268][497]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-15.45.30:281][545]BlueprintLog: New page: EnemySpawnerBP 컴파일
+[2017.05.17-15.45.30:811][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemySpawnerBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemySpawnerBP.uasset" SILENT=true
+[2017.05.17-15.45.30:833][581]LogSavePackage: Save=16.95ms
+[2017.05.17-15.45.30:833][581]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemySpawnerBP1ACAE5764399EDC934FD32A79E23BA87.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemySpawnerBP.uasset'
+[2017.05.17-15.45.30:839][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemySpawnerBP.uasset
+[2017.05.17-15.45.48:714][397]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-15.45.48:732][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-15.45.48:732][397]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 9:45:48)
+[2017.05.17-15.45.48:732][397]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-15.45.48:738][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005248s)
+[2017.05.17-15.45.48:738][397]LogAIModule: Creating AISystem for world test
+[2017.05.17-15.45.48:738][397]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.05.17-15.45.48:739][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006196s)
+[2017.05.17-15.45.48:761][397]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-15.45.48:777][397]LogInit: FAudioDevice initialized.
+[2017.05.17-15.45.48:808][397]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-15.45.48:809][397]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-00.45.48
+[2017.05.17-15.45.48:810][397]LogWorld: Bringing up level for play took: 0.000865
+[2017.05.17-15.45.48:812][397]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.502
+[2017.05.17-15.45.55:686][219]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0141
+[2017.05.17-15.45.55:686][219]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.45.55:986][255]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0141
+[2017.05.17-15.45.55:986][255]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.45.59:505][677]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0141
+[2017.05.17-15.45.59:505][677]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.46.00:749][826]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_8
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0141
+[2017.05.17-15.46.00:749][826]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.46.06:999][575]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0141
+[2017.05.17-15.46.06:999][575]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.46.09:495][874]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0141
+[2017.05.17-15.46.09:495][874]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.48.49:514][975]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.48.49:673][976]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.48.49:958][982]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.48.50:546][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-15.48.50:585][ 12]LogSavePackage: Save=33.55ms
+[2017.05.17-15.48.50:585][ 12]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP933B24214F196B7481D4D08939A58EFA.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-15.48.50:590][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-15.48.52:394][168]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-15.48.52:408][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-15.48.52:408][168]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 9:48:52)
+[2017.05.17-15.48.52:408][168]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-15.48.52:413][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004997s)
+[2017.05.17-15.48.52:413][168]LogAIModule: Creating AISystem for world test
+[2017.05.17-15.48.52:414][168]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.05.17-15.48.52:414][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.005850s)
+[2017.05.17-15.48.52:438][168]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-15.48.52:459][168]LogInit: FAudioDevice initialized.
+[2017.05.17-15.48.52:492][168]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-15.48.52:494][168]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-00.48.52
+[2017.05.17-15.48.52:494][168]LogWorld: Bringing up level for play took: 0.000828
+[2017.05.17-15.48.52:496][168]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.187
+[2017.05.17-15.48.56:113][591]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.48.56:113][591]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.02:703][364]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.02:703][364]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.02:720][366]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.02:720][366]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:004][400]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:004][400]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:020][402]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:020][402]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:304][436]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:304][436]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:321][438]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:321][438]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:604][472]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:604][472]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:621][474]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:621][474]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:907][508]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:907][508]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.03:923][510]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.03:923][510]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.04:208][544]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.04:208][544]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.04:224][546]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.04:224][546]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.04:509][580]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.04:509][580]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.04:526][582]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.04:526][582]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.04:810][616]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.04:810][616]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.04:827][618]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.04:827][618]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.05:102][651]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.05:102][651]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.05:119][653]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.05:119][653]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.05:403][687]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.05:403][687]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.05:419][689]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.05:420][689]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.05:703][723]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.05:704][723]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.05:720][725]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.05:720][725]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.06:003][759]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.06:003][759]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.06:020][761]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0189
+[2017.05.17-15.49.06:021][761]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.49.23:404][472]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.17-15.49.23:404][472]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.17-15.49.23:558][487]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.17-15.49.23:558][487]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.17-15.49.44:120][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.17-15.49.44:181][398]LogSavePackage: Save=36.95ms
+[2017.05.17-15.49.44:181][398]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/test66AA34A0412FC00B5C7D2192479F99F9.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap'
+[2017.05.17-15.49.44:186][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap
+[2017.05.17-15.49.44:201][398]LogFileHelpers: Saving map 'test' took 0.205
+[2017.05.17-15.49.44:203][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyAIController" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset" SILENT=true
+[2017.05.17-15.49.44:222][398]LogSavePackage: Save=12.75ms
+[2017.05.17-15.49.44:222][398]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyAIControllerDF7B05344E1C91B27B33A8A2CC6E24AD.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset'
+[2017.05.17-15.49.44:226][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset
+[2017.05.17-15.49.46:383][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyAIController" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset" SILENT=true
+[2017.05.17-15.49.46:398][568]LogSavePackage: Save=11.15ms
+[2017.05.17-15.49.46:398][568]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyAIController6103EBCA4CD15F0F5770818FBA208CAD.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset'
+[2017.05.17-15.49.46:404][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset
+[2017.05.17-15.49.47:172][638]BlueprintLog: New page: EnemyAIController 컴파일
+[2017.05.17-15.49.47:781][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyAIController" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset" SILENT=true
+[2017.05.17-15.49.47:796][666]LogSavePackage: Save=10.77ms
+[2017.05.17-15.49.47:796][666]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyAIController211710264A5082418D340A9EC51EE540.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset'
+[2017.05.17-15.49.47:800][666]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyAIController.uasset
+[2017.05.17-15.50.49:963][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-15.50.51:207][516]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-15.50.52:827][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-15.50.54:858][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-15.52.16:226][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-15.52.16:264][ 11]LogSavePackage: Save=33.42ms
+[2017.05.17-15.52.16:264][ 11]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP63A21274475A830F32AF548A8B0C850C.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-15.52.16:269][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-15.52.48:010][999]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.52.48:803][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-15.52.48:841][ 57]LogSavePackage: Save=33.04ms
+[2017.05.17-15.52.48:841][ 57]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP4F5984E04C05BC569AE8469C22590170.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-15.52.48:845][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-15.53.10:687][401]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-15.53.11:210][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-15.53.11:232][436]LogSavePackage: Save=14.88ms
+[2017.05.17-15.53.11:232][436]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode5A9DF2704782EA9A63388B95084D8CBB.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-15.53.11:239][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-15.53.17:999][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-15.53.18:018][111]LogSavePackage: Save=14.16ms
+[2017.05.17-15.53.18:018][111]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameModeECB128724FE5A69AB2C9EA9E128CDCF7.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-15.53.18:024][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-15.53.56:633][972]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-15.53.56:647][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-15.53.56:647][972]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 9:53:56)
+[2017.05.17-15.53.56:647][972]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-15.53.56:653][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005386s)
+[2017.05.17-15.53.56:653][972]LogAIModule: Creating AISystem for world test
+[2017.05.17-15.53.56:653][972]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.05.17-15.53.56:653][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006217s)
+[2017.05.17-15.53.56:672][972]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-15.53.56:690][972]LogInit: FAudioDevice initialized.
+[2017.05.17-15.53.56:722][972]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-15.53.56:724][972]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-00.53.56
+[2017.05.17-15.53.56:724][972]LogWorld: Bringing up level for play took: 0.000890
+[2017.05.17-15.53.56:726][972]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.417
+[2017.05.17-15.54.06:284][115]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.06:284][115]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.06:526][144]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.06:526][144]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.06:584][151]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.06:584][151]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.06:825][180]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.06:825][180]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.06:884][187]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.06:884][187]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.07:125][216]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.07:126][216]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.07:184][223]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.07:184][223]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.07:425][252]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.07:425][252]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.07:484][259]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.07:484][259]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.07:726][288]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_10
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.07:726][288]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.07:784][295]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.07:784][295]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:026][324]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:085][331]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.08:085][331]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:326][360]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:384][367]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.08:385][367]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:627][396]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:684][403]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.08:684][403]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:926][432]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.08:985][439]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.08:985][439]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.09:226][468]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.54.09:284][475]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_9
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:0018
+[2017.05.17-15.54.09:284][475]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.55.02:449][326]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.55.03:143][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-15.55.03:185][366]LogSavePackage: Save=34.74ms
+[2017.05.17-15.55.03:185][366]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP5C512DE241FA5B3E9C5BDFA564BA86DA.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-15.55.03:190][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-15.57.25:668][ 38]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.17-15.57.25:668][ 38]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2017.05.17-15.57.49:907][780]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-15.57.50:487][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-15.57.50:526][811]LogSavePackage: Save=34.65ms
+[2017.05.17-15.57.50:526][811]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP0168C269439E17A3510120BA4B52B8A2.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-15.57.50:530][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-15.58.00:899][709]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-15.58.00:910][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-15.58.00:910][709]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 9:58:00)
+[2017.05.17-15.58.00:910][709]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-15.58.00:915][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005078s)
+[2017.05.17-15.58.00:916][709]LogAIModule: Creating AISystem for world test
+[2017.05.17-15.58.00:916][709]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2017.05.17-15.58.00:916][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006023s)
+[2017.05.17-15.58.00:937][709]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-15.58.00:955][709]LogInit: FAudioDevice initialized.
+[2017.05.17-15.58.00:987][709]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-15.58.00:989][709]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-00.58.00
+[2017.05.17-15.58.00:989][709]LogWorld: Bringing up level for play took: 0.000707
+[2017.05.17-15.58.00:991][709]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.681
+[2017.05.17-15.58.04:721][154]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.04:722][154]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:021][190]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:021][190]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:071][196]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:072][196]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:321][226]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:321][226]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:371][232]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:371][232]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:622][262]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:622][262]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:671][268]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:672][268]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:922][298]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:922][298]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.05:971][304]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.05:971][304]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:222][334]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:222][334]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:272][340]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:272][340]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:522][370]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:522][370]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:555][374]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:555][374]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:572][376]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:572][376]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:822][406]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:822][406]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:855][410]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:855][410]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.06:872][412]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.06:872][412]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:122][442]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:122][442]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:155][446]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:156][446]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:172][448]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:172][448]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:422][478]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:422][478]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:455][482]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:455][482]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:472][484]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:472][484]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:722][514]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:722][514]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:755][518]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:755][518]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.07:772][520]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.07:772][520]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:022][550]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:022][550]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:055][554]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:055][554]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:072][556]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:072][556]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:322][586]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:322][586]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:355][590]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:356][590]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:372][592]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:372][592]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:622][622]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:622][622]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:655][626]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:656][626]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:672][628]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:673][628]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:922][658]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:922][658]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:955][662]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:955][662]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.08:972][664]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.08:972][664]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:222][694]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_1
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:222][694]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:256][698]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:256][698]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:272][700]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:272][700]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:522][730]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:555][734]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:555][734]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:572][736]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:572][736]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:822][766]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:856][770]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:856][770]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.09:872][772]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_2
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.09:873][772]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:122][802]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:156][806]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.10:156][806]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:172][808]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:422][838]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:455][842]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.10:456][842]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:472][844]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:723][874]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:756][878]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.10:756][878]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.10:772][880]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:022][910]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:055][914]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_3
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.11:055][914]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:073][916]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:322][946]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:356][950]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:372][952]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:622][982]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:656][986]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:673][988]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:797][  3]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.11:797][  3]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:923][ 18]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:956][ 22]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.11:973][ 24]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:098][ 39]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.12:098][ 39]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:223][ 54]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:256][ 58]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:273][ 60]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:398][ 75]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.12:398][ 75]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:522][ 90]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:557][ 94]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:572][ 96]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:700][111]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_7
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-15.58.12:701][111]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:824][126]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:857][130]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.12:875][132]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:000][147]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:125][162]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:159][166]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:176][168]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:300][183]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:425][198]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:458][202]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:475][204]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:726][234]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:759][238]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.13:775][240]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:025][270]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:058][274]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:077][276]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:259][298]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:325][306]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:359][310]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.14:375][312]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-15.58.29:984][ 32]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.17-15.58.30:128][ 32]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.17-15.58.30:361][ 32]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.17-15.59.35:549][407]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.17-15.59.36:189][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.17-15.59.36:240][435]LogSavePackage: Save=44.39ms
+[2017.05.17-15.59.36:240][435]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HeroBP599DDE9D43F8598B06653CBFF613E32E.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset'
+[2017.05.17-15.59.36:246][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset
+[2017.05.17-16.00.10:917][382]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.17-16.00.11:542][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.17-16.00.11:592][413]LogSavePackage: Save=45.35ms
+[2017.05.17-16.00.11:592][413]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HeroBPCFB07DCF4988F0F3244F2F845BCF8598.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset'
+[2017.05.17-16.00.11:598][413]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset
+[2017.05.17-16.00.13:153][583]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.00.13:168][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.00.13:168][583]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:00:13)
+[2017.05.17-16.00.13:168][583]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.00.13:173][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004920s)
+[2017.05.17-16.00.13:174][583]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.00.13:174][583]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2017.05.17-16.00.13:174][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.005865s)
+[2017.05.17-16.00.13:196][583]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.00.13:214][583]LogInit: FAudioDevice initialized.
+[2017.05.17-16.00.13:246][583]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.00.13:248][583]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.00.13
+[2017.05.17-16.00.13:248][583]LogWorld: Bringing up level for play took: 0.000734
+[2017.05.17-16.00.13:251][583]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.941
+[2017.05.17-16.00.16:639][986]LogBlueprintUserMessages: [HeroBP_C_0] 80
+[2017.05.17-16.00.16:939][ 22]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.16:939][ 22]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.17:240][ 58]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.17:240][ 58]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.17:540][ 94]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.17:540][ 94]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.17:564][ 97]LogBlueprintUserMessages: [HeroBP_C_0] 60
+[2017.05.17-16.00.17:840][130]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.17:840][130]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.17:865][133]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.18:140][166]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.18:141][166]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.18:166][169]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.18:440][202]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.18:440][202]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.18:465][205]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.18:741][238]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.18:741][238]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.18:765][241]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:041][274]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.19:041][274]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:065][277]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:341][310]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.19:341][310]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:366][313]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:641][346]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.19:641][346]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:666][349]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:941][382]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.19:941][382]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.19:965][385]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:006][390]LogBlueprintUserMessages: [HeroBP_C_0] 40
+[2017.05.17-16.00.20:241][418]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.20:241][418]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:266][421]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:307][426]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.20:307][426]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:541][454]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.20:541][454]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:566][457]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:607][462]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.20:607][462]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:841][490]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_0
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.20:841][490]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:866][493]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.20:907][498]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.20:907][498]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:141][526]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:167][529]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:208][534]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.21:208][534]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:441][562]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:466][565]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:508][570]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.21:508][570]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:741][598]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:766][601]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.21:807][606]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.21:807][606]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:041][634]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:066][637]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:108][642]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.22:108][642]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:341][670]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:366][673]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:408][678]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.22:408][678]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:642][706]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:666][709]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:708][714]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.22:708][714]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:941][742]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.22:966][745]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.23:008][750]LogScript:Warning: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+	EnemyBP_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.EnemyBP_C_4
+	Function /Game/Enemy/EnemyBP.EnemyBP_C:ExecuteUbergraph_EnemyBP:00CA
+[2017.05.17-16.00.23:008][750]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.23:241][778]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.00.23:267][781]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemyBP' 노드: Decrease HP 그래프: EventGraph 오브젝트: EnemyBP 설명: Accessed None 이 K2Node_DynamicCast_AsHero_BP 프로퍼티를 읽으려 합니다.
