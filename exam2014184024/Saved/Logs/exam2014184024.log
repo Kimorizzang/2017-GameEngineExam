@@ -1917,3 +1917,377 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.05.17-16.22.03:571][849]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.22.03
 [2017.05.17-16.22.03:572][849]LogWorld: Bringing up level for play took: 0.001521
 [2017.05.17-16.22.03:574][849]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: -0.735
+[2017.05.17-16.23.41:098][364]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/UI/HUD.
+[2017.05.17-16.24.00:817][428]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/UI/HUD.
+[2017.05.17-16.24.33:488][803]LogEditorTransaction: Undo 랩 위젯
+[2017.05.17-16.24.33:947][820]LogEditorTransaction: Undo 브러시 표면 선택
+[2017.05.17-16.27.38:767][344]LogEditorTransaction: Undo 위젯 크기조정
+[2017.05.17-16.28.03:400][445]LogSavePackage: Save=52.99ms
+[2017.05.17-16.28.03:400][445]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/test_Auto38ABABB9F45E7E104495A26BBC870F1EC.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/Levels/test_Auto3.umap'
+[2017.05.17-16.28.03:402][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/Levels/test_Auto3.umap
+[2017.05.17-16.28.03:405][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/test' took 0.088
+[2017.05.17-16.28.03:405][445]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2017.05.17-16.28.03:407][445]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUD] ([1] browsable assets)...
+[2017.05.17-16.28.03:407][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUD]
+[2017.05.17-16.28.03:407][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/UI/HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.17-16.28.03:418][445]LogSavePackage: Save=8.99ms
+[2017.05.17-16.28.03:418][445]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD_Auto33F1BB24D445796E879FA37AB2C471526.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/UI/HUD_Auto3.uasset'
+[2017.05.17-16.28.03:421][445]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/Autosaves/Game/UI/HUD_Auto3.uasset
+[2017.05.17-16.28.03:421][445]LogFileHelpers: Auto-saving content packages took 0.016
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_4.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_6.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_7.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_9.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_10.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_11.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_19.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_13.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_14.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_15.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_16.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_17.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_18.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_17.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_18.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0
+[2017.05.17-16.28.17:732][121]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_100).  Import failed...
+[2017.05.17-16.28.17:732][121]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.05.17-16.28.17:733][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:733][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_4.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:733][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_5.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_6.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_7.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_9.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_10.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_11.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_19.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_13.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_14.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_15.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_16.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_17.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_39:HUD_C_3.WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_39:HUD_C_18.WidgetTree.CanvasPanel_0
+[2017.05.17-16.28.17:734][121]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1 or CanvasPanelSlot /Engine/Transient.World_39:HUD_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_1
+[2017.05.17-16.28.17:734][121]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_304).  Import failed...
+[2017.05.17-16.28.17:734][121]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.05.17-16.28.27:369][509]LogEditorTransaction: Undo 위젯 이동
+[2017.05.17-16.28.28:046][509]LogEditorTransaction: Undo 위젯 이동
+[2017.05.17-16.28.28:758][509]LogEditorTransaction: Undo 애니메이션가능 프로퍼티 변경됨
+[2017.05.17-16.28.44:005][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.17-16.28.44:078][960]LogSavePackage: Save=52.79ms
+[2017.05.17-16.28.44:078][960]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/test183961CD40100C3E1CE700BDEDF06F6F.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap'
+[2017.05.17-16.28.44:084][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap
+[2017.05.17-16.28.44:099][960]LogFileHelpers: Saving map 'test' took 0.223
+[2017.05.17-16.28.44:102][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.28.44:115][960]LogSavePackage: Save=10.09ms
+[2017.05.17-16.28.44:115][960]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD8C6F189248B01A97A23D2F9B5B2A49E7.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.28.44:120][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.28.44:147][961]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/UI/HUD.
+[2017.05.17-16.28.45:466][ 37]BlueprintLog: New page: HUD 컴파일
+[2017.05.17-16.28.46:246][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.28.46:265][ 68]LogSavePackage: Save=10.47ms
+[2017.05.17-16.28.46:265][ 68]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUDAC1165564344B5E59361D2BEA0A5BBC0.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.28.46:269][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.28.50:844][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.28.50:861][198]LogSavePackage: Save=10.83ms
+[2017.05.17-16.28.50:861][198]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD61F9DA434CFD1F8FF8F2BDA0B7BEA7FA.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.28.50:865][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.29.03:388][749]BlueprintLog: New page: HUD 컴파일
+[2017.05.17-16.29.03:983][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.29.03:997][799]LogSavePackage: Save=9.24ms
+[2017.05.17-16.29.03:997][799]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUDC4DDE897491982225AD6BBBA8754EF0F.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.29.04:004][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.30.07:343][102]BlueprintLog: New page: HUD 컴파일
+[2017.05.17-16.30.07:958][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.30.07:976][152]LogSavePackage: Save=12.13ms
+[2017.05.17-16.30.07:976][152]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD07E9FBF642626FA6FFE7CA9688FD6307.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.30.07:983][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.30.42:745][339]BlueprintLog: New page: HUD 컴파일
+[2017.05.17-16.30.57:827][726]BlueprintLog: New page: HUD 컴파일
+[2017.05.17-16.30.58:608][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.30.58:629][790]LogSavePackage: Save=15.04ms
+[2017.05.17-16.30.58:629][790]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD169AA7E04F92AB244CB72E8A83AEB486.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.30.58:636][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.32.08:329][718]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.32.12:863][ 96]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.32.13:620][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.32.13:644][146]LogSavePackage: Save=17.00ms
+[2017.05.17-16.32.13:645][146]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameModeDD0B595D4206386166486BA6577B428A.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.32.13:651][146]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.32.53:848][754]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.32.54:656][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.32.54:681][810]LogSavePackage: Save=19.42ms
+[2017.05.17-16.32.54:681][810]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameModeD820F2F542D6A00E3C404E8A48235164.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.32.54:687][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.33.25:149][182]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.33.25:939][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.33.25:964][232]LogSavePackage: Save=19.79ms
+[2017.05.17-16.33.25:965][232]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode8275A5864E2D3745B46A98A9996D2462.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.33.25:969][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.33.29:122][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-16.34.48:645][168]BlueprintLog: New page: EnemyBP 컴파일
+[2017.05.17-16.34.49:436][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.17-16.34.49:482][211]LogSavePackage: Save=36.36ms
+[2017.05.17-16.34.49:482][211]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/EnemyBP69217A0546BA08B98EFB5BBB2924DCD3.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset'
+[2017.05.17-16.34.49:487][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Enemy/EnemyBP.uasset
+[2017.05.17-16.36.20:363][ 58]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.17-16.36.21:088][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.17-16.36.21:142][ 95]LogSavePackage: Save=45.87ms
+[2017.05.17-16.36.21:142][ 95]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HeroBP10CD9B56419A5B5EA72EC8B4F07902FF.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset'
+[2017.05.17-16.36.21:147][ 95]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Hero/HeroBP.uasset
+[2017.05.17-16.36.22:783][265]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.36.22:804][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.36.22:804][265]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:36:22)
+[2017.05.17-16.36.22:804][265]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.36.22:810][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005924s)
+[2017.05.17-16.36.22:811][265]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.36.22:811][265]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2017.05.17-16.36.22:811][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006823s)
+[2017.05.17-16.36.22:833][265]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.36.22:849][265]LogInit: FAudioDevice initialized.
+[2017.05.17-16.36.22:882][265]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.36.22:885][265]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.36.22
+[2017.05.17-16.36.22:885][265]LogWorld: Bringing up level for play took: 0.001506
+[2017.05.17-16.36.22:887][265]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.578
+[2017.05.17-16.36.28:400][915]LogScript:Warning: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+	ShooterGameMode_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.ShooterGameMode_C_0
+	Function /Game/ShooterGameMode.ShooterGameMode_C:IncreaseScore:0054
+[2017.05.17-16.36.28:400][915]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다. 다음 함수에서: 'IncreaseScore' 노드: Show Score 그래프: IncreaseScore 오브젝트: ShooterGameMode 설명: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.36.37:006][696]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.17-16.36.40:646][996]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.36.41:339][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.36.41:365][ 21]LogSavePackage: Save=20.05ms
+[2017.05.17-16.36.41:365][ 21]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameModeFF9FF6734E23DB263A6092892A245177.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.36.41:371][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.36.42:971][183]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.36.42:987][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.36.42:988][183]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:36:42)
+[2017.05.17-16.36.42:988][183]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.36.42:993][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005645s)
+[2017.05.17-16.36.42:994][183]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.36.42:994][183]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.05.17-16.36.42:994][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006442s)
+[2017.05.17-16.36.43:016][183]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.36.43:032][183]LogInit: FAudioDevice initialized.
+[2017.05.17-16.36.43:065][183]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.36.43:067][183]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.36.43
+[2017.05.17-16.36.43:068][183]LogWorld: Bringing up level for play took: 0.001487
+[2017.05.17-16.36.43:070][183]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 0.76
+[2017.05.17-16.36.50:067][793]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.17-16.36.50:970][794]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.exam2014184024
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display: BranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\SiHyeon\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.17-16.36.50:970][794]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.17-16.36.57:556][499]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.17-16.37.19:904][460]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.37.19:920][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.37.19:920][460]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:37:19)
+[2017.05.17-16.37.19:920][460]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.37.19:925][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005028s)
+[2017.05.17-16.37.19:925][460]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.37.19:926][460]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.05.17-16.37.19:926][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.005776s)
+[2017.05.17-16.37.19:949][460]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.37.19:965][460]LogInit: FAudioDevice initialized.
+[2017.05.17-16.37.19:998][460]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.37.20:001][460]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.37.20
+[2017.05.17-16.37.20:001][460]LogWorld: Bringing up level for play took: 0.001433
+[2017.05.17-16.37.20:003][460]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: -0.306
+[2017.05.17-16.37.30:239][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.37.30:262][166]LogSavePackage: Save=14.75ms
+[2017.05.17-16.37.30:262][166]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD555C677E44035D2567A080A93237E52E.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.37.30:266][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.37.31:294][224]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.37.31:314][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.37.31:314][224]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:37:31)
+[2017.05.17-16.37.31:314][224]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.37.31:319][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005109s)
+[2017.05.17-16.37.31:320][224]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.37.31:320][224]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2017.05.17-16.37.31:320][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.005858s)
+[2017.05.17-16.37.31:348][224]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.37.31:449][224]LogInit: FAudioDevice initialized.
+[2017.05.17-16.37.31:479][224]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.37.31:481][224]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.37.31
+[2017.05.17-16.37.31:482][224]LogWorld: Bringing up level for play took: 0.001438
+[2017.05.17-16.37.31:484][224]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 1.175
+[2017.05.17-16.37.41:141][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.37.41:169][ 78]LogSavePackage: Save=20.52ms
+[2017.05.17-16.37.41:169][ 78]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode55AD27314907F29A807814B8E203C17A.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.37.41:175][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.37.44:954][360]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.17-16.37.45:798][361]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.exam2014184024
+
+[2017.05.17-16.37.45:798][361]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-16.37.45:798][361]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display: BranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-CJPULGD/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\SiHyeon\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.17-16.37.45:799][361]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.17-16.37.59:448][743]LogMetaData: Removing '/Game/UI/UI.SKEL_UI_C' ref from Metadata '/Game/UI/HUD.PackageMetaData'
+[2017.05.17-16.37.59:448][743]LogMetaData: Removing '/Game/UI/UI.UI_C' ref from Metadata '/Game/UI/HUD.PackageMetaData'
+[2017.05.17-16.37.59:448][743]LogMetaData: Removing '/Game/UI/UI.UI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/HUD.PackageMetaData'
+[2017.05.17-16.37.59:448][743]LogMetaData: Removing '/Game/UI/UI.UI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/HUD.PackageMetaData'
+[2017.05.17-16.37.59:448][743]LogMetaData: Removing '/Game/UI/UI.UI:ShowHeroHP.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/HUD.PackageMetaData'
+[2017.05.17-16.37.59:448][743]LogMetaData: Removing '/Game/UI/UI.UI:ShowScore.K2Node_FunctionEntry_1' ref from Metadata '/Game/UI/HUD.PackageMetaData'
+[2017.05.17-16.37.59:468][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/UI" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/UI.uasset" SILENT=true
+[2017.05.17-16.37.59:488][743]LogSavePackage: Save=17.06ms
+[2017.05.17-16.37.59:488][743]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/UIDC78A90D4CE67E5AA01E04A3B5C7FAB7.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/UI.uasset'
+[2017.05.17-16.37.59:493][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/UI.uasset
+[2017.05.17-16.37.59:693][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.37.59:719][743]LogSavePackage: Save=20.15ms
+[2017.05.17-16.37.59:719][743]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameModeEDCD131C4A0F9C634AD3EDA23981BAF2.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.37.59:722][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.38.00:066][745]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/UI/UI.
+[2017.05.17-16.38.00:682][803]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.17-16.38.14:255][232]LogMetaData: Removing '/Game/UI/HUD.HUD_C' ref from Metadata '/Game/UI/UI.PackageMetaData'
+[2017.05.17-16.38.14:255][232]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C' ref from Metadata '/Game/UI/UI.PackageMetaData'
+[2017.05.17-16.38.14:255][232]LogMetaData: Removing '/Game/UI/HUD.HUD:ShowHeroHP.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/UI.PackageMetaData'
+[2017.05.17-16.38.14:255][232]LogMetaData: Removing '/Game/UI/HUD.HUD:ShowScore.K2Node_FunctionEntry_1' ref from Metadata '/Game/UI/UI.PackageMetaData'
+[2017.05.17-16.38.14:276][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset" SILENT=true
+[2017.05.17-16.38.14:294][232]LogSavePackage: Save=15.11ms
+[2017.05.17-16.38.14:294][232]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/HUD8F2F9FC8478AF117A0281DB086CE429D.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset'
+[2017.05.17-16.38.14:299][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/UI/HUD.uasset
+[2017.05.17-16.38.14:451][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.38.14:476][232]LogSavePackage: Save=19.52ms
+[2017.05.17-16.38.14:476][232]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode123B0E41422A941DBB94388A41145A98.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.38.14:483][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.38.14:814][233]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/UI/HUD.
+[2017.05.17-16.38.28:897][183]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.17-16.39.03:276][129]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.39.03:294][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.39.03:294][129]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:39:03)
+[2017.05.17-16.39.03:294][129]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.39.03:300][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005859s)
+[2017.05.17-16.39.03:300][129]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.39.03:300][129]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2017.05.17-16.39.03:301][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006831s)
+[2017.05.17-16.39.03:326][129]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.39.03:344][129]LogInit: FAudioDevice initialized.
+[2017.05.17-16.39.03:372][129]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.39.03:374][129]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.39.03
+[2017.05.17-16.39.03:375][129]LogWorld: Bringing up level for play took: 0.001393
+[2017.05.17-16.39.03:377][129]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: 1.068
+[2017.05.17-16.39.11:609][ 83]LogScript:Warning: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+	ShooterGameMode_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.ShooterGameMode_C_0
+	Function /Game/ShooterGameMode.ShooterGameMode_C:IncreaseScore:0054
+[2017.05.17-16.39.11:609][ 83]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다. 다음 함수에서: 'IncreaseScore' 노드: Show Score 그래프: IncreaseScore 오브젝트: ShooterGameMode 설명: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.39.46:693][316]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.39.47:294][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.39.47:318][327]LogSavePackage: Save=19.08ms
+[2017.05.17-16.39.47:318][327]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode67AF1D724DBCA4ACC2E69FBF842EF0A2.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.39.47:321][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.39.51:764][754]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.39.51:780][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.39.51:780][754]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:39:51)
+[2017.05.17-16.39.51:780][754]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.39.51:786][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005718s)
+[2017.05.17-16.39.51:787][754]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.39.51:787][754]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.05.17-16.39.51:787][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006602s)
+[2017.05.17-16.39.51:809][754]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.39.51:824][754]LogInit: FAudioDevice initialized.
+[2017.05.17-16.39.51:858][754]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.39.51:860][754]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.39.51
+[2017.05.17-16.39.51:861][754]LogWorld: Bringing up level for play took: 0.001485
+[2017.05.17-16.39.51:863][754]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: -0.447
+[2017.05.17-16.40.59:442][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/test" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.17-16.40.59:519][197]LogSavePackage: Save=50.86ms
+[2017.05.17-16.40.59:519][197]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/testDF47BAE6433F6C2DD59B8E922D117E26.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap'
+[2017.05.17-16.40.59:525][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/Levels/test.umap
+[2017.05.17-16.40.59:540][197]LogFileHelpers: Saving map 'test' took 0.219
+[2017.05.17-16.40.59:750][199]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.40.59:765][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.40.59:765][199]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:40:59)
+[2017.05.17-16.40.59:765][199]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.40.59:770][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005230s)
+[2017.05.17-16.40.59:771][199]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.40.59:771][199]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.05.17-16.40.59:771][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006230s)
+[2017.05.17-16.40.59:793][199]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.40.59:809][199]LogInit: FAudioDevice initialized.
+[2017.05.17-16.40.59:843][199]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.40.59:845][199]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.40.59
+[2017.05.17-16.40.59:846][199]LogWorld: Bringing up level for play took: 0.001392
+[2017.05.17-16.40.59:848][199]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: -0.462
+[2017.05.17-16.41.03:889][606]LogScript:Warning: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+	ShooterGameMode_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.ShooterGameMode_C_0
+	Function /Game/ShooterGameMode.ShooterGameMode_C:IncreaseScore:0054
+[2017.05.17-16.41.03:889][606]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다. 다음 함수에서: 'IncreaseScore' 노드: Show Score 그래프: IncreaseScore 오브젝트: ShooterGameMode 설명: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.41.05:149][755]LogScript:Warning: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+	ShooterGameMode_C /Game/Levels/UEDPIE_0_test.test:PersistentLevel.ShooterGameMode_C_0
+	Function /Game/ShooterGameMode.ShooterGameMode_C:IncreaseScore:0054
+[2017.05.17-16.41.05:149][755]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다. 다음 함수에서: 'IncreaseScore' 노드: Show Score 그래프: IncreaseScore 오브젝트: ShooterGameMode 설명: Accessed None 이 GameUI 프로퍼티를 읽으려 합니다.
+[2017.05.17-16.42.04:666][153]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.17-16.42.27:697][717]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.42.27:712][717]LogBlueprint:Error: [Compiler ShooterGameMode] 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.05.17-16.42.27:903][717]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 UserWidget 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.05.17-16.42.27:904][717]LogBlueprint:Warning: [Compiler ShooterGameMode] 경고 [4807.36] ShooterGameMode 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 0 회, [소요시간 206 ms] (/Game/ShooterGameMode.ShooterGameMode)
+[2017.05.17-16.42.30:834][895]BlueprintLog: New page: ShooterGameMode 컴파일
+[2017.05.17-16.42.32:132][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterGameMode" FILE="../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset" SILENT=true
+[2017.05.17-16.42.32:162][956]LogSavePackage: Save=23.06ms
+[2017.05.17-16.42.32:162][956]LogSavePackage: Moving '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Saved/ShooterGameMode5672894D4ECF2EB505425FA619485B06.tmp' to '../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset'
+[2017.05.17-16.42.32:167][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SiHyeon/Documents/Unreal Projects/exam2014184024/Content/ShooterGameMode.uasset
+[2017.05.17-16.42.33:868][125]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.17-16.42.33:884][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.17-16.42.33:884][125]PIE: New page: PIE 세션: test (2017. 5. 18. 오전 10:42:33)
+[2017.05.17-16.42.33:884][125]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_test
+[2017.05.17-16.42.33:890][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005216s)
+[2017.05.17-16.42.33:890][125]LogAIModule: Creating AISystem for world test
+[2017.05.17-16.42.33:890][125]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2017.05.17-16.42.33:891][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/test.test to /Game/Levels/UEDPIE_0_test.test (0.006283s)
+[2017.05.17-16.42.33:913][125]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.17-16.42.33:929][125]LogInit: FAudioDevice initialized.
+[2017.05.17-16.42.33:963][125]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.17-16.42.33:965][125]LogWorld: Bringing World /Game/Levels/UEDPIE_0_test.test up for play (max tick rate 0) at 2017.05.18-01.42.33
+[2017.05.17-16.42.33:965][125]LogWorld: Bringing up level for play took: 0.001422
+[2017.05.17-16.42.33:968][125]PIE: 정보 /Game/Levels/UEDPIE_0_test 에 대한 에디터에서 플레이 시작 시간: -0.341
+[2017.05.17-16.43.09:689][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-16.43.09:765][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.17-16.43.10:223][895]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.05.17-16.43.10:433][896]Cmd: QUIT_EDITOR
+[2017.05.17-16.43.11:432][896]LogExit: Preparing to exit.
